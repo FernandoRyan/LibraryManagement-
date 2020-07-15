@@ -179,6 +179,10 @@ namespace Library_Management_System
 
         }
 
-    }
+		private void panelTitlebar_Paint(object sender, PaintEventArgs e)
+		{
+
+		}
+	}
 }
         
