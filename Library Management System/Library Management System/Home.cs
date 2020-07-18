@@ -103,6 +103,7 @@ namespace Library_Management_System
         private void btnHome_Click(object sender, EventArgs e)
         {
             ActivateButton(sender,RGBColors.color1);
+            OpenChildForm(new Dashboard());
         }
 
         private void btnAccount_Click(object sender, EventArgs e)
