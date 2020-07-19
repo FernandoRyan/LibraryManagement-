@@ -45,9 +45,14 @@
             this.btnAccount = new FontAwesome.Sharp.IconButton();
             this.btnBook = new FontAwesome.Sharp.IconButton();
             this.btnCheckout = new FontAwesome.Sharp.IconButton();
-            this.btnReport = new FontAwesome.Sharp.IconButton();
+            this.btnNews = new FontAwesome.Sharp.IconButton();
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.iconButton6 = new FontAwesome.Sharp.IconButton();
+            this.btnCompetition = new FontAwesome.Sharp.IconButton();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.panelTitlebar.SuspendLayout();
+            this.Desktoppanel.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Home)).BeginInit();
             this.panelMenu.SuspendLayout();
@@ -66,7 +71,6 @@
             this.panelTitlebar.Name = "panelTitlebar";
             this.panelTitlebar.Size = new System.Drawing.Size(694, 32);
             this.panelTitlebar.TabIndex = 1;
-            this.panelTitlebar.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTitlebar_Paint);
             this.panelTitlebar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitlebar_MouseDown);
             // 
             // iconButtonMax
@@ -151,7 +155,11 @@
             // 
             // Desktoppanel
             // 
-            this.Desktoppanel.BackColor = System.Drawing.Color.Lavender;
+            this.Desktoppanel.BackColor = System.Drawing.Color.White;
+            this.Desktoppanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Desktoppanel.BackgroundImage")));
+            this.Desktoppanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Desktoppanel.Controls.Add(this.label5);
+            this.Desktoppanel.Controls.Add(this.label4);
             this.Desktoppanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Desktoppanel.Location = new System.Drawing.Point(200, 32);
             this.Desktoppanel.Name = "Desktoppanel";
@@ -303,33 +311,35 @@
             this.btnCheckout.UseVisualStyleBackColor = true;
             this.btnCheckout.Click += new System.EventHandler(this.btnCheckout_Click);
             // 
-            // btnReport
+            // btnNews
             // 
-            this.btnReport.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnReport.FlatAppearance.BorderSize = 0;
-            this.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnReport.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.btnReport.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnReport.IconChar = FontAwesome.Sharp.IconChar.ChartPie;
-            this.btnReport.IconColor = System.Drawing.Color.Gainsboro;
-            this.btnReport.IconSize = 33;
-            this.btnReport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReport.Location = new System.Drawing.Point(0, 304);
-            this.btnReport.Name = "btnReport";
-            this.btnReport.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnReport.Rotation = 0D;
-            this.btnReport.Size = new System.Drawing.Size(200, 60);
-            this.btnReport.TabIndex = 7;
-            this.btnReport.Text = "Report";
-            this.btnReport.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnReport.UseVisualStyleBackColor = true;
-            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
+            this.btnNews.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnNews.FlatAppearance.BorderSize = 0;
+            this.btnNews.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNews.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnNews.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnNews.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
+            this.btnNews.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnNews.IconSize = 33;
+            this.btnNews.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNews.Location = new System.Drawing.Point(0, 304);
+            this.btnNews.Name = "btnNews";
+            this.btnNews.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnNews.Rotation = 0D;
+            this.btnNews.Size = new System.Drawing.Size(200, 60);
+            this.btnNews.TabIndex = 7;
+            this.btnNews.Text = "News";
+            this.btnNews.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNews.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnNews.UseVisualStyleBackColor = true;
+            this.btnNews.Click += new System.EventHandler(this.btnNews_Click);
             // 
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(55)))), ((int)(((byte)(140)))));
-            this.panelMenu.Controls.Add(this.btnReport);
+            this.panelMenu.Controls.Add(this.iconButton6);
+            this.panelMenu.Controls.Add(this.btnCompetition);
+            this.panelMenu.Controls.Add(this.btnNews);
             this.panelMenu.Controls.Add(this.btnCheckout);
             this.panelMenu.Controls.Add(this.btnBook);
             this.panelMenu.Controls.Add(this.btnAccount);
@@ -340,6 +350,76 @@
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(200, 500);
             this.panelMenu.TabIndex = 0;
+            // 
+            // iconButton6
+            // 
+            this.iconButton6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton6.FlatAppearance.BorderSize = 0;
+            this.iconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton6.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButton6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.ChartPie;
+            this.iconButton6.IconColor = System.Drawing.Color.Gainsboro;
+            this.iconButton6.IconSize = 33;
+            this.iconButton6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton6.Location = new System.Drawing.Point(0, 424);
+            this.iconButton6.Name = "iconButton6";
+            this.iconButton6.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.iconButton6.Rotation = 0D;
+            this.iconButton6.Size = new System.Drawing.Size(200, 60);
+            this.iconButton6.TabIndex = 9;
+            this.iconButton6.Text = "Report";
+            this.iconButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton6.UseVisualStyleBackColor = true;
+            this.iconButton6.Click += new System.EventHandler(this.iconButton6_Click);
+            // 
+            // btnCompetition
+            // 
+            this.btnCompetition.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnCompetition.FlatAppearance.BorderSize = 0;
+            this.btnCompetition.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCompetition.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnCompetition.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnCompetition.IconChar = FontAwesome.Sharp.IconChar.Trophy;
+            this.btnCompetition.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnCompetition.IconSize = 33;
+            this.btnCompetition.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCompetition.Location = new System.Drawing.Point(0, 364);
+            this.btnCompetition.Name = "btnCompetition";
+            this.btnCompetition.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnCompetition.Rotation = 0D;
+            this.btnCompetition.Size = new System.Drawing.Size(200, 60);
+            this.btnCompetition.TabIndex = 8;
+            this.btnCompetition.Text = "Competition";
+            this.btnCompetition.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCompetition.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCompetition.UseVisualStyleBackColor = true;
+            this.btnCompetition.Click += new System.EventHandler(this.btnCompetition_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Calisto MT", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label4.Location = new System.Drawing.Point(173, 134);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(155, 37);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Welcome ";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Calisto MT", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label5.Location = new System.Drawing.Point(276, 175);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(256, 37);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "to NSBM Library";
             // 
             // las
             // 
@@ -356,6 +436,8 @@
             this.Text = "Form1";
             this.panelTitlebar.ResumeLayout(false);
             this.panelTitlebar.PerformLayout();
+            this.Desktoppanel.ResumeLayout(false);
+            this.Desktoppanel.PerformLayout();
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Home)).EndInit();
@@ -375,7 +457,7 @@
         private FontAwesome.Sharp.IconButton btnAccount;
         private FontAwesome.Sharp.IconButton btnBook;
         private FontAwesome.Sharp.IconButton btnCheckout;
-        private FontAwesome.Sharp.IconButton btnReport;
+        private FontAwesome.Sharp.IconButton btnNews;
         private System.Windows.Forms.Panel panelMenu;
         private FontAwesome.Sharp.IconButton iconButtonMax;
         private FontAwesome.Sharp.IconButton iconButtonclose;
@@ -383,6 +465,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
+        private FontAwesome.Sharp.IconButton iconButton6;
+        private FontAwesome.Sharp.IconButton btnCompetition;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
     }
 }
 

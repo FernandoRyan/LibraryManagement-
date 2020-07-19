@@ -27,7 +27,9 @@ namespace Library_Management_System
             public static Color color3 = Color.FromArgb(167, 183,90);
             public static Color color4 = Color.FromArgb(221, 52, 57);
             public static Color color5 = Color.FromArgb(0, 128, 128);
-            public static Color color6 = Color.FromArgb(214, 59, 126);
+            public static Color color6 = Color.FromArgb(212, 235, 208);
+            public static Color color7 = Color.FromArgb(77, 62, 62);
+            
         }
         // Constructor
         public las()
@@ -124,10 +126,18 @@ namespace Library_Management_System
             OpenChildForm(new Checkout());
         }
 
-        private void btnReport_Click(object sender, EventArgs e)
+        private void btnNews_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender, RGBColors.color5);
-            OpenChildForm(new Report());
+
+            ActivateButton(sender, RGBColors.color6);
+            OpenChildForm(new News());
+
+        }
+
+        private void btnCompetition_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color7);
+            OpenChildForm(new Competitions());
         }
 
         private void Home_Click(object sender, EventArgs e)
@@ -164,7 +174,11 @@ namespace Library_Management_System
             Application.Exit();
         }
 
-       
+        private void iconButton6_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color5);
+            OpenChildForm(new Report());
+        }
 
         private void iconButtonMin_Click(object sender, EventArgs e)
         {
@@ -179,11 +193,44 @@ namespace Library_Management_System
                 WindowState = FormWindowState.Normal;
 
         }
+        // Main fram dashboard
+        private void reportview_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color5);
+            OpenChildForm(new Report());
+        }
 
-		private void panelTitlebar_Paint(object sender, PaintEventArgs e)
-		{
+        private void Bookview_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Book());
+        }
 
-		}
-	}
+        private void iconButton2_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Account());
+        }
+
+        private void reportview_Click_1(object sender, EventArgs e)
+        {
+            OpenChildForm(new Report());
+        }
+
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new News());
+        }
+
+        private void iconButton4_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Competitions());
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Events());
+        }
+
+       
+    }
 }
         
