@@ -50,6 +50,9 @@ namespace Library_Management_System
             registraton.Show();
         }
 
-       
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
