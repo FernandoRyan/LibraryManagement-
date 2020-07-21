@@ -101,11 +101,13 @@ namespace Library_Management_System
             childForm.Show();
             lblTitlechildform.Text = childForm.Text;
         }
-
         private void btnHome_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender,RGBColors.color1);
+            this.Hide();
+            ActivateButton(sender, RGBColors.color1);
             OpenChildForm(new Dashboard());
+            Dashboard registraton = new Dashboard();
+            registraton.Show();
         }
 
         private void btnAccount_Click(object sender, EventArgs e)
@@ -124,6 +126,11 @@ namespace Library_Management_System
         {
             ActivateButton(sender, RGBColors.color4);
             OpenChildForm(new Checkout());
+        }
+        private void reportview_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color5);
+            OpenChildForm(new Report());
         }
 
         private void btnNews_Click(object sender, EventArgs e)
@@ -174,11 +181,7 @@ namespace Library_Management_System
             Application.Exit();
         }
 
-        private void iconButton6_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGBColors.color5);
-            OpenChildForm(new Report());
-        }
+      
 
         private void iconButtonMin_Click(object sender, EventArgs e)
         {
@@ -193,44 +196,8 @@ namespace Library_Management_System
                 WindowState = FormWindowState.Normal;
 
         }
-        // Main fram dashboard
-        private void reportview_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGBColors.color5);
-            OpenChildForm(new Report());
-        }
 
-        private void Bookview_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Book());
-        }
 
-        private void iconButton2_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Account());
-        }
-
-        private void reportview_Click_1(object sender, EventArgs e)
-        {
-            OpenChildForm(new Report());
-        }
-
-        private void iconButton3_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new News());
-        }
-
-        private void iconButton4_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Competitions());
-        }
-
-        private void iconButton1_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Events());
-        }
-
-       
     }
 }
         

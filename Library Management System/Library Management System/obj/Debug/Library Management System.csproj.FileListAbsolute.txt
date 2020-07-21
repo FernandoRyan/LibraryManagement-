@@ -28,7 +28,6 @@ E:\Git hub projects\LibraryManagement-\Library Management System\Library Managem
 E:\Git hub projects\LibraryManagement-\Library Management System\Library Management System\bin\Debug\Library Management System.pdb
 E:\Git hub projects\LibraryManagement-\Library Management System\Library Management System\bin\Debug\FontAwesome.Sharp.dll
 E:\Git hub projects\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library Management System.csprojAssemblyReference.cache
-E:\Git hub projects\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Dashboard.resources
 E:\Git hub projects\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.las.resources
 E:\Git hub projects\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Login.resources
 E:\Git hub projects\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Properties.Resources.resources
@@ -38,3 +37,4 @@ E:\Git hub projects\LibraryManagement-\Library Management System\Library Managem
 E:\Git hub projects\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library Management System.csproj.CopyComplete
 E:\Git hub projects\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library Management System.exe
 E:\Git hub projects\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library Management System.pdb
+E:\Git hub projects\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Dashboard.resources

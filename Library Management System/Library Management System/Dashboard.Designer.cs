@@ -29,555 +29,675 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
-            this.panelMain = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.iconButton3 = new FontAwesome.Sharp.IconButton();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.iconButton2 = new FontAwesome.Sharp.IconButton();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.iconButton4 = new FontAwesome.Sharp.IconButton();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.iconButton5 = new FontAwesome.Sharp.IconButton();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.panelMenu = new System.Windows.Forms.Panel();
             this.iconButton6 = new FontAwesome.Sharp.IconButton();
-            this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.picNewrealses = new System.Windows.Forms.PictureBox();
-            this.reportview = new FontAwesome.Sharp.IconButton();
+            this.btnCompetition = new FontAwesome.Sharp.IconButton();
+            this.btnNews = new FontAwesome.Sharp.IconButton();
+            this.btnCheckout = new FontAwesome.Sharp.IconButton();
+            this.btnBook = new FontAwesome.Sharp.IconButton();
+            this.btnAccount = new FontAwesome.Sharp.IconButton();
+            this.btnHome = new FontAwesome.Sharp.IconButton();
+            this.panelLogo = new System.Windows.Forms.Panel();
+            this.Home = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panelTitlebar = new System.Windows.Forms.Panel();
+            this.iconButtonMax = new FontAwesome.Sharp.IconButton();
+            this.iconButtonclose = new FontAwesome.Sharp.IconButton();
+            this.iconButtonMin = new FontAwesome.Sharp.IconButton();
+            this.lblTitlechildform = new System.Windows.Forms.Label();
+            this.iconCurrentChildForm = new FontAwesome.Sharp.IconButton();
+            this.Desktoppanel = new System.Windows.Forms.Panel();
+            this.iconButtonReport = new FontAwesome.Sharp.IconButton();
+            this.iconButtonCompet = new FontAwesome.Sharp.IconButton();
+            this.iconButtonNews = new FontAwesome.Sharp.IconButton();
+            this.iconButtoncheckout = new FontAwesome.Sharp.IconButton();
             this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.Bookview = new FontAwesome.Sharp.IconButton();
-            this.iconButton7 = new FontAwesome.Sharp.IconButton();
-            this.label5 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.panelMain.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picNewrealses)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            this.iconButtonBook = new FontAwesome.Sharp.IconButton();
+            this.pictureBoxacc = new System.Windows.Forms.PictureBox();
+            this.iconButtonAcc = new FontAwesome.Sharp.IconButton();
+            this.pictureBoxReports = new System.Windows.Forms.PictureBox();
+            this.pictureBoxCheckout = new System.Windows.Forms.PictureBox();
+            this.pictureBoxNews = new System.Windows.Forms.PictureBox();
+            this.pictureBoxbook = new System.Windows.Forms.PictureBox();
+            this.pictureBoxCompet = new System.Windows.Forms.PictureBox();
+            this.panelMenu.SuspendLayout();
+            this.panelLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Home)).BeginInit();
+            this.panelTitlebar.SuspendLayout();
+            this.Desktoppanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxacc)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxReports)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCheckout)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNews)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxbook)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCompet)).BeginInit();
             this.SuspendLayout();
             // 
-            // panelMain
+            // panelMenu
             // 
-            this.panelMain.Controls.Add(this.panel4);
-            this.panelMain.Controls.Add(this.panel3);
-            this.panelMain.Controls.Add(this.panel2);
-            this.panelMain.Controls.Add(this.label1);
-            this.panelMain.Controls.Add(this.panel1);
-            this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMain.ForeColor = System.Drawing.Color.Coral;
-            this.panelMain.Location = new System.Drawing.Point(0, 0);
-            this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(665, 448);
-            this.panelMain.TabIndex = 0;
+            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(55)))), ((int)(((byte)(140)))));
+            this.panelMenu.Controls.Add(this.iconButton6);
+            this.panelMenu.Controls.Add(this.btnCompetition);
+            this.panelMenu.Controls.Add(this.btnNews);
+            this.panelMenu.Controls.Add(this.btnCheckout);
+            this.panelMenu.Controls.Add(this.btnBook);
+            this.panelMenu.Controls.Add(this.btnAccount);
+            this.panelMenu.Controls.Add(this.btnHome);
+            this.panelMenu.Controls.Add(this.panelLogo);
+            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelMenu.Location = new System.Drawing.Point(0, 0);
+            this.panelMenu.Name = "panelMenu";
+            this.panelMenu.Size = new System.Drawing.Size(200, 486);
+            this.panelMenu.TabIndex = 1;
             // 
-            // panel4
+            // iconButton6
             // 
-            this.panel4.Controls.Add(this.panel5);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.ForeColor = System.Drawing.Color.Coral;
-            this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(665, 448);
-            this.panel4.TabIndex = 5;
+            this.iconButton6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton6.FlatAppearance.BorderSize = 0;
+            this.iconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton6.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButton6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.ChartPie;
+            this.iconButton6.IconColor = System.Drawing.Color.Gainsboro;
+            this.iconButton6.IconSize = 33;
+            this.iconButton6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton6.Location = new System.Drawing.Point(0, 424);
+            this.iconButton6.Name = "iconButton6";
+            this.iconButton6.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.iconButton6.Rotation = 0D;
+            this.iconButton6.Size = new System.Drawing.Size(200, 60);
+            this.iconButton6.TabIndex = 9;
+            this.iconButton6.Text = "Report";
+            this.iconButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton6.UseVisualStyleBackColor = true;
+            this.iconButton6.Click += new System.EventHandler(this.iconButton6_Click);
             // 
-            // panel3
+            // btnCompetition
             // 
-            this.panel3.Controls.Add(this.pictureBox3);
-            this.panel3.Controls.Add(this.iconButton3);
-            this.panel3.Location = new System.Drawing.Point(489, 45);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 185);
-            this.panel3.TabIndex = 4;
+            this.btnCompetition.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnCompetition.FlatAppearance.BorderSize = 0;
+            this.btnCompetition.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCompetition.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnCompetition.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnCompetition.IconChar = FontAwesome.Sharp.IconChar.Trophy;
+            this.btnCompetition.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnCompetition.IconSize = 33;
+            this.btnCompetition.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCompetition.Location = new System.Drawing.Point(0, 364);
+            this.btnCompetition.Name = "btnCompetition";
+            this.btnCompetition.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnCompetition.Rotation = 0D;
+            this.btnCompetition.Size = new System.Drawing.Size(200, 60);
+            this.btnCompetition.TabIndex = 8;
+            this.btnCompetition.Text = "Competition";
+            this.btnCompetition.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCompetition.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCompetition.UseVisualStyleBackColor = true;
+            this.btnCompetition.Click += new System.EventHandler(this.btnCompetition_Click);
             // 
-            // pictureBox3
+            // btnNews
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(21, 24);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(147, 117);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
+            this.btnNews.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnNews.FlatAppearance.BorderSize = 0;
+            this.btnNews.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNews.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnNews.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnNews.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
+            this.btnNews.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnNews.IconSize = 33;
+            this.btnNews.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNews.Location = new System.Drawing.Point(0, 304);
+            this.btnNews.Name = "btnNews";
+            this.btnNews.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnNews.Rotation = 0D;
+            this.btnNews.Size = new System.Drawing.Size(200, 60);
+            this.btnNews.TabIndex = 7;
+            this.btnNews.Text = "News";
+            this.btnNews.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNews.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnNews.UseVisualStyleBackColor = true;
+            this.btnNews.Click += new System.EventHandler(this.btnNews_Click);
             // 
-            // iconButton3
+            // btnCheckout
             // 
-            this.iconButton3.FlatAppearance.BorderSize = 0;
-            this.iconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton3.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(38)))), ((int)(((byte)(69)))));
-            this.iconButton3.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton3.IconColor = System.Drawing.Color.Black;
-            this.iconButton3.IconSize = 16;
-            this.iconButton3.Location = new System.Drawing.Point(36, 147);
-            this.iconButton3.Name = "iconButton3";
-            this.iconButton3.Rotation = 0D;
-            this.iconButton3.Size = new System.Drawing.Size(114, 23);
-            this.iconButton3.TabIndex = 0;
-            this.iconButton3.Text = "More info...";
-            this.iconButton3.UseVisualStyleBackColor = true;
+            this.btnCheckout.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnCheckout.FlatAppearance.BorderSize = 0;
+            this.btnCheckout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCheckout.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnCheckout.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnCheckout.IconChar = FontAwesome.Sharp.IconChar.CartArrowDown;
+            this.btnCheckout.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnCheckout.IconSize = 33;
+            this.btnCheckout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCheckout.Location = new System.Drawing.Point(0, 244);
+            this.btnCheckout.Name = "btnCheckout";
+            this.btnCheckout.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnCheckout.Rotation = 0D;
+            this.btnCheckout.Size = new System.Drawing.Size(200, 60);
+            this.btnCheckout.TabIndex = 6;
+            this.btnCheckout.Text = "Checkout";
+            this.btnCheckout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnCheckout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnCheckout.UseVisualStyleBackColor = true;
+            this.btnCheckout.Click += new System.EventHandler(this.btnCheckout_Click);
             // 
-            // panel2
+            // btnBook
             // 
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.iconButton2);
-            this.panel2.Location = new System.Drawing.Point(262, 45);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 185);
-            this.panel2.TabIndex = 3;
+            this.btnBook.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBook.FlatAppearance.BorderSize = 0;
+            this.btnBook.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBook.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnBook.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnBook.IconChar = FontAwesome.Sharp.IconChar.Book;
+            this.btnBook.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnBook.IconSize = 33;
+            this.btnBook.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBook.Location = new System.Drawing.Point(0, 184);
+            this.btnBook.Name = "btnBook";
+            this.btnBook.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnBook.Rotation = 0D;
+            this.btnBook.Size = new System.Drawing.Size(200, 60);
+            this.btnBook.TabIndex = 5;
+            this.btnBook.Text = "Book";
+            this.btnBook.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBook.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnBook.UseVisualStyleBackColor = true;
+            this.btnBook.Click += new System.EventHandler(this.btnBook_Click);
             // 
-            // pictureBox2
+            // btnAccount
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(21, 24);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(147, 117);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
+            this.btnAccount.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAccount.FlatAppearance.BorderSize = 0;
+            this.btnAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAccount.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnAccount.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAccount.IconChar = FontAwesome.Sharp.IconChar.User;
+            this.btnAccount.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnAccount.IconSize = 33;
+            this.btnAccount.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAccount.Location = new System.Drawing.Point(0, 124);
+            this.btnAccount.Name = "btnAccount";
+            this.btnAccount.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnAccount.Rotation = 0D;
+            this.btnAccount.Size = new System.Drawing.Size(200, 60);
+            this.btnAccount.TabIndex = 4;
+            this.btnAccount.Text = "Account";
+            this.btnAccount.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAccount.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnAccount.UseVisualStyleBackColor = true;
+            this.btnAccount.Click += new System.EventHandler(this.btnAccount_Click);
             // 
-            // iconButton2
+            // btnHome
             // 
-            this.iconButton2.FlatAppearance.BorderSize = 0;
-            this.iconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton2.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(38)))), ((int)(((byte)(69)))));
-            this.iconButton2.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton2.IconColor = System.Drawing.Color.Black;
-            this.iconButton2.IconSize = 16;
-            this.iconButton2.Location = new System.Drawing.Point(36, 147);
-            this.iconButton2.Name = "iconButton2";
-            this.iconButton2.Rotation = 0D;
-            this.iconButton2.Size = new System.Drawing.Size(114, 23);
-            this.iconButton2.TabIndex = 0;
-            this.iconButton2.Text = "More info...";
-            this.iconButton2.UseVisualStyleBackColor = true;
+            this.btnHome.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnHome.FlatAppearance.BorderSize = 0;
+            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHome.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnHome.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnHome.IconChar = FontAwesome.Sharp.IconChar.Dove;
+            this.btnHome.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnHome.IconSize = 33;
+            this.btnHome.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHome.Location = new System.Drawing.Point(0, 64);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnHome.Rotation = 0D;
+            this.btnHome.Size = new System.Drawing.Size(200, 60);
+            this.btnHome.TabIndex = 3;
+            this.btnHome.Text = "Dashboard";
+            this.btnHome.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnHome.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnHome.UseVisualStyleBackColor = true;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
+            // 
+            // panelLogo
+            // 
+            this.panelLogo.Controls.Add(this.Home);
+            this.panelLogo.Controls.Add(this.label3);
+            this.panelLogo.Controls.Add(this.label2);
+            this.panelLogo.Controls.Add(this.label1);
+            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelLogo.Location = new System.Drawing.Point(0, 0);
+            this.panelLogo.Name = "panelLogo";
+            this.panelLogo.Size = new System.Drawing.Size(200, 64);
+            this.panelLogo.TabIndex = 2;
+            // 
+            // Home
+            // 
+            this.Home.Image = ((System.Drawing.Image)(resources.GetObject("Home.Image")));
+            this.Home.Location = new System.Drawing.Point(0, 3);
+            this.Home.Name = "Home";
+            this.Home.Size = new System.Drawing.Size(70, 43);
+            this.Home.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Home.TabIndex = 0;
+            this.Home.TabStop = false;
+            this.Home.Click += new System.EventHandler(this.Home_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(107, 35);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(49, 16);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "System";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(76, 19);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(129, 16);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Library Management  ";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.label1.Location = new System.Drawing.Point(273, 9);
+            this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(107, 3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 25);
+            this.label1.Size = new System.Drawing.Size(52, 16);
             this.label1.TabIndex = 1;
-            this.label1.Text = "New Releases ";
+            this.label1.Text = "NSBM   ";
             // 
-            // panel1
+            // panelTitlebar
             // 
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.iconButton1);
-            this.panel1.Location = new System.Drawing.Point(38, 45);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 185);
-            this.panel1.TabIndex = 0;
+            this.panelTitlebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(158)))), ((int)(((byte)(73)))));
+            this.panelTitlebar.Controls.Add(this.iconButtonMax);
+            this.panelTitlebar.Controls.Add(this.iconButtonclose);
+            this.panelTitlebar.Controls.Add(this.iconButtonMin);
+            this.panelTitlebar.Controls.Add(this.lblTitlechildform);
+            this.panelTitlebar.Controls.Add(this.iconCurrentChildForm);
+            this.panelTitlebar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelTitlebar.Location = new System.Drawing.Point(200, 0);
+            this.panelTitlebar.Name = "panelTitlebar";
+            this.panelTitlebar.Size = new System.Drawing.Size(600, 32);
+            this.panelTitlebar.TabIndex = 2;
+            this.panelTitlebar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitlebar_MouseDown);
             // 
-            // pictureBox1
+            // iconButtonMax
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(21, 24);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(147, 117);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.iconButtonMax.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.iconButtonMax.FlatAppearance.BorderSize = 0;
+            this.iconButtonMax.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonMax.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonMax.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.iconButtonMax.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize;
+            this.iconButtonMax.IconColor = System.Drawing.Color.White;
+            this.iconButtonMax.IconSize = 21;
+            this.iconButtonMax.Location = new System.Drawing.Point(530, 3);
+            this.iconButtonMax.Name = "iconButtonMax";
+            this.iconButtonMax.Rotation = 0D;
+            this.iconButtonMax.Size = new System.Drawing.Size(32, 22);
+            this.iconButtonMax.TabIndex = 4;
+            this.iconButtonMax.UseVisualStyleBackColor = true;
+            this.iconButtonMax.Click += new System.EventHandler(this.iconButtonMax_Click);
             // 
-            // iconButton1
+            // iconButtonclose
             // 
-            this.iconButton1.FlatAppearance.BorderSize = 0;
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(38)))), ((int)(((byte)(69)))));
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.None;
-            this.iconButton1.IconColor = System.Drawing.Color.Black;
-            this.iconButton1.IconSize = 16;
-            this.iconButton1.Location = new System.Drawing.Point(36, 147);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Rotation = 0D;
-            this.iconButton1.Size = new System.Drawing.Size(114, 23);
-            this.iconButton1.TabIndex = 0;
-            this.iconButton1.Text = "More info...";
-            this.iconButton1.UseVisualStyleBackColor = true;
+            this.iconButtonclose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.iconButtonclose.FlatAppearance.BorderSize = 0;
+            this.iconButtonclose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonclose.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonclose.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.iconButtonclose.IconChar = FontAwesome.Sharp.IconChar.WindowClose;
+            this.iconButtonclose.IconColor = System.Drawing.Color.White;
+            this.iconButtonclose.IconSize = 21;
+            this.iconButtonclose.Location = new System.Drawing.Point(565, 6);
+            this.iconButtonclose.Name = "iconButtonclose";
+            this.iconButtonclose.Rotation = 0D;
+            this.iconButtonclose.Size = new System.Drawing.Size(32, 17);
+            this.iconButtonclose.TabIndex = 3;
+            this.iconButtonclose.UseVisualStyleBackColor = true;
+            this.iconButtonclose.Click += new System.EventHandler(this.iconButtonclose_Click);
             // 
-            // panel5
+            // iconButtonMin
             // 
-            this.panel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel5.BackgroundImage")));
-            this.panel5.Controls.Add(this.label9);
-            this.panel5.Controls.Add(this.iconButton4);
-            this.panel5.Controls.Add(this.pictureBox5);
-            this.panel5.Controls.Add(this.label8);
-            this.panel5.Controls.Add(this.iconButton5);
-            this.panel5.Controls.Add(this.pictureBox4);
-            this.panel5.Controls.Add(this.iconButton6);
-            this.panel5.Controls.Add(this.label7);
-            this.panel5.Controls.Add(this.pictureBox6);
-            this.panel5.Controls.Add(this.label6);
-            this.panel5.Controls.Add(this.picNewrealses);
-            this.panel5.Controls.Add(this.reportview);
-            this.panel5.Controls.Add(this.label4);
-            this.panel5.Controls.Add(this.pictureBox7);
-            this.panel5.Controls.Add(this.Bookview);
-            this.panel5.Controls.Add(this.iconButton7);
-            this.panel5.Controls.Add(this.label5);
-            this.panel5.Controls.Add(this.pictureBox8);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(665, 448);
-            this.panel5.TabIndex = 1;
+            this.iconButtonMin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.iconButtonMin.FlatAppearance.BorderSize = 0;
+            this.iconButtonMin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonMin.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonMin.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.iconButtonMin.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
+            this.iconButtonMin.IconColor = System.Drawing.Color.White;
+            this.iconButtonMin.IconSize = 21;
+            this.iconButtonMin.Location = new System.Drawing.Point(503, -1);
+            this.iconButtonMin.Name = "iconButtonMin";
+            this.iconButtonMin.Rotation = 0D;
+            this.iconButtonMin.Size = new System.Drawing.Size(21, 26);
+            this.iconButtonMin.TabIndex = 2;
+            this.iconButtonMin.UseVisualStyleBackColor = true;
+            this.iconButtonMin.Click += new System.EventHandler(this.iconButtonMin_Click);
             // 
-            // label9
+            // lblTitlechildform
             // 
-            this.label9.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Constantia", 15F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(219, 226);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(206, 24);
-            this.label9.TabIndex = 39;
-            this.label9.Text = "Upcoming Competition";
+            this.lblTitlechildform.AutoSize = true;
+            this.lblTitlechildform.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitlechildform.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTitlechildform.Location = new System.Drawing.Point(51, 6);
+            this.lblTitlechildform.Name = "lblTitlechildform";
+            this.lblTitlechildform.Size = new System.Drawing.Size(56, 20);
+            this.lblTitlechildform.TabIndex = 1;
+            this.lblTitlechildform.Text = "Home";
             // 
-            // iconButton4
+            // iconCurrentChildForm
             // 
-            this.iconButton4.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.iconButton4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(158)))), ((int)(((byte)(73)))));
-            this.iconButton4.FlatAppearance.BorderSize = 0;
-            this.iconButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton4.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton4.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.iconButton4.IconChar = FontAwesome.Sharp.IconChar.ChartPie;
-            this.iconButton4.IconColor = System.Drawing.Color.White;
-            this.iconButton4.IconSize = 22;
-            this.iconButton4.Location = new System.Drawing.Point(273, 412);
-            this.iconButton4.Name = "iconButton4";
-            this.iconButton4.Rotation = 0D;
-            this.iconButton4.Size = new System.Drawing.Size(121, 31);
-            this.iconButton4.TabIndex = 38;
-            this.iconButton4.Text = "Participate";
-            this.iconButton4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.iconButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton4.UseVisualStyleBackColor = false;
+            this.iconCurrentChildForm.FlatAppearance.BorderSize = 0;
+            this.iconCurrentChildForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconCurrentChildForm.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconCurrentChildForm.IconChar = FontAwesome.Sharp.IconChar.Home;
+            this.iconCurrentChildForm.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(82)))), ((int)(((byte)(19)))));
+            this.iconCurrentChildForm.IconSize = 34;
+            this.iconCurrentChildForm.Location = new System.Drawing.Point(0, -1);
+            this.iconCurrentChildForm.Name = "iconCurrentChildForm";
+            this.iconCurrentChildForm.Rotation = 0D;
+            this.iconCurrentChildForm.Size = new System.Drawing.Size(64, 36);
+            this.iconCurrentChildForm.TabIndex = 0;
+            this.iconCurrentChildForm.UseVisualStyleBackColor = true;
+            this.iconCurrentChildForm.Click += new System.EventHandler(this.iconCurrentChildForm_Click);
             // 
-            // pictureBox5
+            // Desktoppanel
             // 
-            this.pictureBox5.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(273, 262);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(102, 142);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 37;
-            this.pictureBox5.TabStop = false;
+            this.Desktoppanel.BackColor = System.Drawing.Color.White;
+            this.Desktoppanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Desktoppanel.Controls.Add(this.iconButtonReport);
+            this.Desktoppanel.Controls.Add(this.iconButtonCompet);
+            this.Desktoppanel.Controls.Add(this.iconButtonNews);
+            this.Desktoppanel.Controls.Add(this.iconButtoncheckout);
+            this.Desktoppanel.Controls.Add(this.label4);
+            this.Desktoppanel.Controls.Add(this.iconButtonBook);
+            this.Desktoppanel.Controls.Add(this.pictureBoxacc);
+            this.Desktoppanel.Controls.Add(this.iconButtonAcc);
+            this.Desktoppanel.Controls.Add(this.pictureBoxReports);
+            this.Desktoppanel.Controls.Add(this.pictureBoxCheckout);
+            this.Desktoppanel.Controls.Add(this.pictureBoxNews);
+            this.Desktoppanel.Controls.Add(this.pictureBoxbook);
+            this.Desktoppanel.Controls.Add(this.pictureBoxCompet);
+            this.Desktoppanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Desktoppanel.Location = new System.Drawing.Point(200, 32);
+            this.Desktoppanel.Name = "Desktoppanel";
+            this.Desktoppanel.Size = new System.Drawing.Size(600, 454);
+            this.Desktoppanel.TabIndex = 3;
             // 
-            // label8
+            // iconButtonReport
             // 
-            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Constantia", 15F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(35, 223);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(109, 24);
-            this.label8.TabIndex = 36;
-            this.label8.Text = "Latest news";
+            this.iconButtonReport.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.iconButtonReport.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(158)))), ((int)(((byte)(73)))));
+            this.iconButtonReport.FlatAppearance.BorderSize = 0;
+            this.iconButtonReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonReport.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonReport.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonReport.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.iconButtonReport.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButtonReport.IconColor = System.Drawing.Color.Black;
+            this.iconButtonReport.IconSize = 16;
+            this.iconButtonReport.Location = new System.Drawing.Point(447, 383);
+            this.iconButtonReport.Name = "iconButtonReport";
+            this.iconButtonReport.Rotation = 0D;
+            this.iconButtonReport.Size = new System.Drawing.Size(115, 30);
+            this.iconButtonReport.TabIndex = 16;
+            this.iconButtonReport.Text = "Reports....";
+            this.iconButtonReport.UseVisualStyleBackColor = false;
+            this.iconButtonReport.Click += new System.EventHandler(this.iconButtonReport_Click);
             // 
-            // iconButton5
+            // iconButtonCompet
             // 
-            this.iconButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.iconButton5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(158)))), ((int)(((byte)(73)))));
-            this.iconButton5.FlatAppearance.BorderSize = 0;
-            this.iconButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton5.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton5.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.iconButton5.IconChar = FontAwesome.Sharp.IconChar.ChartPie;
-            this.iconButton5.IconColor = System.Drawing.Color.White;
-            this.iconButton5.IconSize = 22;
-            this.iconButton5.Location = new System.Drawing.Point(51, 407);
-            this.iconButton5.Name = "iconButton5";
-            this.iconButton5.Rotation = 0D;
-            this.iconButton5.Size = new System.Drawing.Size(121, 31);
-            this.iconButton5.TabIndex = 35;
-            this.iconButton5.Text = "Discover";
-            this.iconButton5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.iconButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton5.UseVisualStyleBackColor = false;
+            this.iconButtonCompet.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.iconButtonCompet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(158)))), ((int)(((byte)(73)))));
+            this.iconButtonCompet.FlatAppearance.BorderSize = 0;
+            this.iconButtonCompet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonCompet.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonCompet.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonCompet.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.iconButtonCompet.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButtonCompet.IconColor = System.Drawing.Color.Black;
+            this.iconButtonCompet.IconSize = 16;
+            this.iconButtonCompet.Location = new System.Drawing.Point(235, 383);
+            this.iconButtonCompet.Name = "iconButtonCompet";
+            this.iconButtonCompet.Rotation = 0D;
+            this.iconButtonCompet.Size = new System.Drawing.Size(136, 30);
+            this.iconButtonCompet.TabIndex = 15;
+            this.iconButtonCompet.Text = "Competitions....";
+            this.iconButtonCompet.UseVisualStyleBackColor = false;
+            this.iconButtonCompet.Click += new System.EventHandler(this.iconButtonCompet_Click);
             // 
-            // pictureBox4
+            // iconButtonNews
             // 
-            this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(29, 250);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(144, 151);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 34;
-            this.pictureBox4.TabStop = false;
+            this.iconButtonNews.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.iconButtonNews.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(158)))), ((int)(((byte)(73)))));
+            this.iconButtonNews.FlatAppearance.BorderSize = 0;
+            this.iconButtonNews.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonNews.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonNews.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonNews.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.iconButtonNews.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButtonNews.IconColor = System.Drawing.Color.Black;
+            this.iconButtonNews.IconSize = 16;
+            this.iconButtonNews.Location = new System.Drawing.Point(55, 383);
+            this.iconButtonNews.Name = "iconButtonNews";
+            this.iconButtonNews.Rotation = 0D;
+            this.iconButtonNews.Size = new System.Drawing.Size(115, 30);
+            this.iconButtonNews.TabIndex = 14;
+            this.iconButtonNews.Text = "News....";
+            this.iconButtonNews.UseVisualStyleBackColor = false;
+            this.iconButtonNews.Click += new System.EventHandler(this.iconButtonNews_Click);
             // 
-            // iconButton6
+            // iconButtoncheckout
             // 
-            this.iconButton6.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.iconButton6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(158)))), ((int)(((byte)(73)))));
-            this.iconButton6.FlatAppearance.BorderSize = 0;
-            this.iconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton6.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton6.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.UserEdit;
-            this.iconButton6.IconColor = System.Drawing.Color.White;
-            this.iconButton6.IconSize = 22;
-            this.iconButton6.Location = new System.Drawing.Point(273, 173);
-            this.iconButton6.Name = "iconButton6";
-            this.iconButton6.Rotation = 0D;
-            this.iconButton6.Size = new System.Drawing.Size(121, 31);
-            this.iconButton6.TabIndex = 33;
-            this.iconButton6.Text = "Setting";
-            this.iconButton6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton6.UseVisualStyleBackColor = false;
-            // 
-            // label7
-            // 
-            this.label7.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Constantia", 15F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(288, 6);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(80, 24);
-            this.label7.TabIndex = 32;
-            this.label7.Text = "Account";
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(273, 33);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(137, 134);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 31;
-            this.pictureBox6.TabStop = false;
-            // 
-            // label6
-            // 
-            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Constantia", 15F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(483, 6);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(124, 24);
-            this.label6.TabIndex = 29;
-            this.label6.Text = "Daily Reports";
-            // 
-            // picNewrealses
-            // 
-            this.picNewrealses.Image = ((System.Drawing.Image)(resources.GetObject("picNewrealses.Image")));
-            this.picNewrealses.Location = new System.Drawing.Point(6, 33);
-            this.picNewrealses.Name = "picNewrealses";
-            this.picNewrealses.Size = new System.Drawing.Size(239, 122);
-            this.picNewrealses.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picNewrealses.TabIndex = 22;
-            this.picNewrealses.TabStop = false;
-            // 
-            // reportview
-            // 
-            this.reportview.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.reportview.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(158)))), ((int)(((byte)(73)))));
-            this.reportview.FlatAppearance.BorderSize = 0;
-            this.reportview.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.reportview.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.reportview.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reportview.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.reportview.IconChar = FontAwesome.Sharp.IconChar.ChartPie;
-            this.reportview.IconColor = System.Drawing.Color.White;
-            this.reportview.IconSize = 22;
-            this.reportview.Location = new System.Drawing.Point(499, 172);
-            this.reportview.Name = "reportview";
-            this.reportview.Rotation = 0D;
-            this.reportview.Size = new System.Drawing.Size(121, 31);
-            this.reportview.TabIndex = 26;
-            this.reportview.Text = "Explore";
-            this.reportview.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.reportview.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.reportview.UseVisualStyleBackColor = false;
+            this.iconButtoncheckout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.iconButtoncheckout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(158)))), ((int)(((byte)(73)))));
+            this.iconButtoncheckout.FlatAppearance.BorderSize = 0;
+            this.iconButtoncheckout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtoncheckout.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtoncheckout.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtoncheckout.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.iconButtoncheckout.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButtoncheckout.IconColor = System.Drawing.Color.Black;
+            this.iconButtoncheckout.IconSize = 16;
+            this.iconButtoncheckout.Location = new System.Drawing.Point(447, 166);
+            this.iconButtoncheckout.Name = "iconButtoncheckout";
+            this.iconButtoncheckout.Rotation = 0D;
+            this.iconButtoncheckout.Size = new System.Drawing.Size(115, 30);
+            this.iconButtoncheckout.TabIndex = 13;
+            this.iconButtoncheckout.Text = "Checkouts...";
+            this.iconButtoncheckout.UseVisualStyleBackColor = false;
+            this.iconButtoncheckout.Click += new System.EventHandler(this.iconButtoncheckout_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Constantia", 15F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(59, 6);
+            this.label4.Location = new System.Drawing.Point(447, 176);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(123, 24);
-            this.label4.TabIndex = 23;
-            this.label4.Text = "New Releases";
+            this.label4.Size = new System.Drawing.Size(0, 13);
+            this.label4.TabIndex = 12;
             // 
-            // pictureBox7
+            // iconButtonBook
             // 
-            this.pictureBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(476, 33);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(144, 134);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 24;
-            this.pictureBox7.TabStop = false;
+            this.iconButtonBook.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.iconButtonBook.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(158)))), ((int)(((byte)(73)))));
+            this.iconButtonBook.FlatAppearance.BorderSize = 0;
+            this.iconButtonBook.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonBook.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonBook.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonBook.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.iconButtonBook.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButtonBook.IconColor = System.Drawing.Color.Black;
+            this.iconButtonBook.IconSize = 16;
+            this.iconButtonBook.Location = new System.Drawing.Point(245, 166);
+            this.iconButtonBook.Name = "iconButtonBook";
+            this.iconButtonBook.Rotation = 0D;
+            this.iconButtonBook.Size = new System.Drawing.Size(115, 30);
+            this.iconButtonBook.TabIndex = 11;
+            this.iconButtonBook.Text = "Books...";
+            this.iconButtonBook.UseVisualStyleBackColor = false;
+            this.iconButtonBook.Click += new System.EventHandler(this.iconButtonBook_Click);
             // 
-            // Bookview
+            // pictureBoxacc
             // 
-            this.Bookview.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(158)))), ((int)(((byte)(73)))));
-            this.Bookview.FlatAppearance.BorderSize = 0;
-            this.Bookview.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Bookview.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.Bookview.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Bookview.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Bookview.IconChar = FontAwesome.Sharp.IconChar.Book;
-            this.Bookview.IconColor = System.Drawing.Color.White;
-            this.Bookview.IconSize = 22;
-            this.Bookview.Location = new System.Drawing.Point(61, 173);
-            this.Bookview.Name = "Bookview";
-            this.Bookview.Rotation = 0D;
-            this.Bookview.Size = new System.Drawing.Size(121, 30);
-            this.Bookview.TabIndex = 27;
-            this.Bookview.Text = "Discover";
-            this.Bookview.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Bookview.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.Bookview.UseVisualStyleBackColor = false;
+            this.pictureBoxacc.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxacc.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxacc.Image")));
+            this.pictureBoxacc.Location = new System.Drawing.Point(55, 63);
+            this.pictureBoxacc.Name = "pictureBoxacc";
+            this.pictureBoxacc.Size = new System.Drawing.Size(115, 89);
+            this.pictureBoxacc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxacc.TabIndex = 9;
+            this.pictureBoxacc.TabStop = false;
+            this.pictureBoxacc.Click += new System.EventHandler(this.pictureBoxacc_Click);
             // 
-            // iconButton7
+            // iconButtonAcc
             // 
-            this.iconButton7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconButton7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(158)))), ((int)(((byte)(73)))));
-            this.iconButton7.FlatAppearance.BorderSize = 0;
-            this.iconButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton7.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton7.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.iconButton7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.iconButton7.IconChar = FontAwesome.Sharp.IconChar.Crop;
-            this.iconButton7.IconColor = System.Drawing.Color.White;
-            this.iconButton7.IconSize = 22;
-            this.iconButton7.Location = new System.Drawing.Point(499, 415);
-            this.iconButton7.Name = "iconButton7";
-            this.iconButton7.Rotation = 0D;
-            this.iconButton7.Size = new System.Drawing.Size(121, 28);
-            this.iconButton7.TabIndex = 28;
-            this.iconButton7.Text = "View More";
-            this.iconButton7.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.iconButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton7.UseVisualStyleBackColor = false;
+            this.iconButtonAcc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(158)))), ((int)(((byte)(73)))));
+            this.iconButtonAcc.FlatAppearance.BorderSize = 0;
+            this.iconButtonAcc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButtonAcc.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButtonAcc.Font = new System.Drawing.Font("Microsoft YaHei", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.iconButtonAcc.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.iconButtonAcc.IconChar = FontAwesome.Sharp.IconChar.None;
+            this.iconButtonAcc.IconColor = System.Drawing.Color.Black;
+            this.iconButtonAcc.IconSize = 16;
+            this.iconButtonAcc.Location = new System.Drawing.Point(55, 166);
+            this.iconButtonAcc.Name = "iconButtonAcc";
+            this.iconButtonAcc.Rotation = 0D;
+            this.iconButtonAcc.Size = new System.Drawing.Size(115, 30);
+            this.iconButtonAcc.TabIndex = 8;
+            this.iconButtonAcc.Text = "Account....";
+            this.iconButtonAcc.UseVisualStyleBackColor = false;
+            this.iconButtonAcc.Click += new System.EventHandler(this.iconButtonAcc_Click);
             // 
-            // label5
+            // pictureBoxReports
             // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Constantia", 15F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(478, 226);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(157, 24);
-            this.label5.TabIndex = 30;
-            this.label5.Text = "Upcoming Events";
+            this.pictureBoxReports.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBoxReports.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxReports.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxReports.Image")));
+            this.pictureBoxReports.Location = new System.Drawing.Point(447, 272);
+            this.pictureBoxReports.Name = "pictureBoxReports";
+            this.pictureBoxReports.Size = new System.Drawing.Size(115, 89);
+            this.pictureBoxReports.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxReports.TabIndex = 7;
+            this.pictureBoxReports.TabStop = false;
+            this.pictureBoxReports.Click += new System.EventHandler(this.pictureBoxReports_Click);
             // 
-            // pictureBox8
+            // pictureBoxCheckout
             // 
-            this.pictureBox8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(454, 253);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(197, 151);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 25;
-            this.pictureBox8.TabStop = false;
+            this.pictureBoxCheckout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBoxCheckout.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxCheckout.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxCheckout.Image")));
+            this.pictureBoxCheckout.Location = new System.Drawing.Point(447, 63);
+            this.pictureBoxCheckout.Name = "pictureBoxCheckout";
+            this.pictureBoxCheckout.Size = new System.Drawing.Size(115, 89);
+            this.pictureBoxCheckout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxCheckout.TabIndex = 6;
+            this.pictureBoxCheckout.TabStop = false;
+            this.pictureBoxCheckout.Click += new System.EventHandler(this.pictureBoxCheckout_Click);
+            // 
+            // pictureBoxNews
+            // 
+            this.pictureBoxNews.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.pictureBoxNews.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxNews.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxNews.Image")));
+            this.pictureBoxNews.Location = new System.Drawing.Point(55, 272);
+            this.pictureBoxNews.Name = "pictureBoxNews";
+            this.pictureBoxNews.Size = new System.Drawing.Size(115, 89);
+            this.pictureBoxNews.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxNews.TabIndex = 4;
+            this.pictureBoxNews.TabStop = false;
+            this.pictureBoxNews.Click += new System.EventHandler(this.pictureBoxNews_Click);
+            // 
+            // pictureBoxbook
+            // 
+            this.pictureBoxbook.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.pictureBoxbook.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxbook.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxbook.Image")));
+            this.pictureBoxbook.Location = new System.Drawing.Point(245, 63);
+            this.pictureBoxbook.Name = "pictureBoxbook";
+            this.pictureBoxbook.Size = new System.Drawing.Size(115, 89);
+            this.pictureBoxbook.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxbook.TabIndex = 2;
+            this.pictureBoxbook.TabStop = false;
+            this.pictureBoxbook.Click += new System.EventHandler(this.pictureBoxbook_Click);
+            // 
+            // pictureBoxCompet
+            // 
+            this.pictureBoxCompet.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.pictureBoxCompet.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxCompet.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxCompet.Image")));
+            this.pictureBoxCompet.Location = new System.Drawing.Point(245, 272);
+            this.pictureBoxCompet.Name = "pictureBoxCompet";
+            this.pictureBoxCompet.Size = new System.Drawing.Size(115, 89);
+            this.pictureBoxCompet.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxCompet.TabIndex = 1;
+            this.pictureBoxCompet.TabStop = false;
+            this.pictureBoxCompet.Click += new System.EventHandler(this.pictureBoxCompet_Click);
             // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(665, 448);
-            this.Controls.Add(this.panelMain);
+            this.ClientSize = new System.Drawing.Size(800, 486);
+            this.Controls.Add(this.Desktoppanel);
+            this.Controls.Add(this.panelTitlebar);
+            this.Controls.Add(this.panelMenu);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Dashboard";
             this.Text = "Dashboard";
-            this.panelMain.ResumeLayout(false);
-            this.panelMain.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picNewrealses)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            this.panelMenu.ResumeLayout(false);
+            this.panelLogo.ResumeLayout(false);
+            this.panelLogo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Home)).EndInit();
+            this.panelTitlebar.ResumeLayout(false);
+            this.panelTitlebar.PerformLayout();
+            this.Desktoppanel.ResumeLayout(false);
+            this.Desktoppanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxacc)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxReports)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCheckout)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNews)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxbook)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCompet)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panelMain;
-        private System.Windows.Forms.Panel panel1;
-        private FontAwesome.Sharp.IconButton iconButton1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private FontAwesome.Sharp.IconButton iconButton3;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private FontAwesome.Sharp.IconButton iconButton2;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label9;
-        private FontAwesome.Sharp.IconButton iconButton4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Label label8;
-        private FontAwesome.Sharp.IconButton iconButton5;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Panel panelMenu;
         private FontAwesome.Sharp.IconButton iconButton6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.PictureBox picNewrealses;
-        private FontAwesome.Sharp.IconButton reportview;
+        private FontAwesome.Sharp.IconButton btnCompetition;
+        private FontAwesome.Sharp.IconButton btnNews;
+        private FontAwesome.Sharp.IconButton btnCheckout;
+        private FontAwesome.Sharp.IconButton btnBook;
+        private FontAwesome.Sharp.IconButton btnAccount;
+        private FontAwesome.Sharp.IconButton btnHome;
+        private System.Windows.Forms.Panel panelLogo;
+        private System.Windows.Forms.PictureBox Home;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panelTitlebar;
+        private FontAwesome.Sharp.IconButton iconButtonMax;
+        private FontAwesome.Sharp.IconButton iconButtonclose;
+        private FontAwesome.Sharp.IconButton iconButtonMin;
+        private System.Windows.Forms.Label lblTitlechildform;
+        private FontAwesome.Sharp.IconButton iconCurrentChildForm;
+        private System.Windows.Forms.Panel Desktoppanel;
+        private System.Windows.Forms.PictureBox pictureBoxCompet;
+        private System.Windows.Forms.PictureBox pictureBoxacc;
+        private FontAwesome.Sharp.IconButton iconButtonAcc;
+        private System.Windows.Forms.PictureBox pictureBoxReports;
+        private System.Windows.Forms.PictureBox pictureBoxCheckout;
+        private System.Windows.Forms.PictureBox pictureBoxNews;
+        private System.Windows.Forms.PictureBox pictureBoxbook;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private FontAwesome.Sharp.IconButton Bookview;
-        private FontAwesome.Sharp.IconButton iconButton7;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.PictureBox pictureBox8;
+        private FontAwesome.Sharp.IconButton iconButtonBook;
+        private FontAwesome.Sharp.IconButton iconButtonCompet;
+        private FontAwesome.Sharp.IconButton iconButtonNews;
+        private FontAwesome.Sharp.IconButton iconButtoncheckout;
+        private FontAwesome.Sharp.IconButton iconButtonReport;
     }
 }
