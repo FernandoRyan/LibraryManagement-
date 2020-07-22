@@ -22,7 +22,7 @@ namespace Library_Management_System
         {
             try
             {
-                SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Praneeth\Documents\libraryDB.mdf;Integrated Security=True;Connect Timeout=30");
+                SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\Projects\LibraryMangemnt\LibraryManagement-\Library Management System\Library Management System\Resources\libraryDB.mdf;Integrated Security=True;Connect Timeout=30");
                 SqlDataAdapter sda = new SqlDataAdapter("select count(*) from login where email = '" + textBox1.Text + "' and password = '" + textBox2.Text + "'", conn);
                 DataTable dt = new DataTable();
                 sda.Fill(dt);
