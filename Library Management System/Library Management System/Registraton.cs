@@ -35,7 +35,7 @@ namespace Library_Management_System
                 }
                 else
                 {
-                    SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='E:\Git hub projects\LibraryManagement -\Library Management System\Library Management System\TestDB.mdf';Integrated Security=True;Connect Timeout=30");
+                    SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\Projects\LibraryMangemnt\LibraryManagement-\Library Management System\Library Management System\Resources\libraryDB.mdf;Integrated Security=True;Connect Timeout=30");
                     conn.Open();
                     String insert = "insert into login (StudentID,Fname,Lname,email,contact,password) values ('" + SID.Text + "','" + Fnametxt.Text + "','" + Lnametxt.Text + "','" + emailtxt.Text + "','" + contacttxt.Text + "','" + pwtxt.Text + "')";
                     SqlCommand cmd = new SqlCommand(insert, conn);
@@ -45,13 +45,13 @@ namespace Library_Management_System
                     home.Show();
                     MessageBox.Show("Registration succesfull.!");
                 }
-               
+
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                MessageBox.Show($"Something wrong in registration {ex}");
+                MessageBox.Show("Something wrong in registration");
             }
-           
+
 
 
         }
