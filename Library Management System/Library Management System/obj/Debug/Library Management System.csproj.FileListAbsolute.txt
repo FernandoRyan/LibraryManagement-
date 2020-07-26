@@ -38,3 +38,18 @@ E:\Git hub projects\LibraryManagement-\Library Management System\Library Managem
 E:\Git hub projects\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library Management System.exe
 E:\Git hub projects\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library Management System.pdb
 E:\Git hub projects\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Dashboard.resources
+E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library Management System.csprojAssemblyReference.cache
+E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Dashboard.resources
+E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.las.resources
+E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Login.resources
+E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Properties.Resources.resources
+E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Registraton.resources
+E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library Management System.csproj.GenerateResource.cache
+E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library Management System.csproj.CoreCompileInputs.cache
+E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library Management System.exe
+E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library Management System.pdb
+E:\Library System\LibraryManagement-\Library Management System\Library Management System\bin\Debug\Library Management System.exe.config
+E:\Library System\LibraryManagement-\Library Management System\Library Management System\bin\Debug\Library Management System.exe
+E:\Library System\LibraryManagement-\Library Management System\Library Management System\bin\Debug\Library Management System.pdb
+E:\Library System\LibraryManagement-\Library Management System\Library Management System\bin\Debug\FontAwesome.Sharp.dll
+E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library Management System.csproj.CopyComplete

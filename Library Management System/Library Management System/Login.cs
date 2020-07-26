@@ -39,7 +39,7 @@ namespace Library_Management_System
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Something is wrong in login");
+                MessageBox.Show($"Something is wrong in login {ex}");
             }
         }
 
