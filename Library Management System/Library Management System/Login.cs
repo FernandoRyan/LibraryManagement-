@@ -22,8 +22,8 @@ namespace Library_Management_System
         {
             try
             {
-                SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ryana\OneDrive\Documents\Register.mdf;Integrated Security=True;Connect Timeout=30");
-                SqlDataAdapter sda = new SqlDataAdapter("select count(*) from Reg where email = '" + textBox1.Text + "' and password = '" + textBox2.Text + "'", conn);
+                SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='E:\Library System\Login.mdf';Integrated Security=True;Connect Timeout=30");
+                SqlDataAdapter sda = new SqlDataAdapter("select count(*) from LG where email = '" + textBox1.Text + "' and password = '" + textBox2.Text + "'", conn);
                 DataTable dt = new DataTable();
                 sda.Fill(dt);
                 if (dt.Rows[0][0].ToString() == "1")
