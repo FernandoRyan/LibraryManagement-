@@ -405,6 +405,7 @@
             // Desktoppanel
             // 
             this.Desktoppanel.BackColor = System.Drawing.Color.White;
+            this.Desktoppanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Desktoppanel.BackgroundImage")));
             this.Desktoppanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Desktoppanel.Controls.Add(this.iconButtonReport);
             this.Desktoppanel.Controls.Add(this.iconButtonCompet);
