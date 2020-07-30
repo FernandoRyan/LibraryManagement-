@@ -120,7 +120,9 @@ namespace Library_Management_System
         {
             ActivateButton(sender, RGBColors.color3);
             OpenChildForm(new Book());
+
         }
+
 
         private void btnCheckout_Click(object sender, EventArgs e)
         {
@@ -132,7 +134,7 @@ namespace Library_Management_System
             ActivateButton(sender, RGBColors.color5);
             OpenChildForm(new Report());
         }
-
+      
         private void btnNews_Click(object sender, EventArgs e)
         {
 
@@ -197,7 +199,7 @@ namespace Library_Management_System
 
         }
 
-
+       
     }
 }
         

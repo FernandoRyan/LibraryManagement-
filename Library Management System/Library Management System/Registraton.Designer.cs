@@ -86,7 +86,7 @@
             this.Fnametxt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Fnametxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Fnametxt.ForeColor = System.Drawing.SystemColors.Window;
-            this.Fnametxt.Location = new System.Drawing.Point(196, 150);
+            this.Fnametxt.Location = new System.Drawing.Point(201, 150);
             this.Fnametxt.Margin = new System.Windows.Forms.Padding(2);
             this.Fnametxt.Name = "Fnametxt";
             this.Fnametxt.Size = new System.Drawing.Size(192, 17);
@@ -134,7 +134,7 @@
             this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel3.Location = new System.Drawing.Point(196, 221);
+            this.panel3.Location = new System.Drawing.Point(196, 222);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(192, 1);

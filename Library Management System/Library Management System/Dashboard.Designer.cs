@@ -317,7 +317,7 @@
             this.panelTitlebar.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTitlebar.Location = new System.Drawing.Point(200, 0);
             this.panelTitlebar.Name = "panelTitlebar";
-            this.panelTitlebar.Size = new System.Drawing.Size(600, 32);
+            this.panelTitlebar.Size = new System.Drawing.Size(701, 32);
             this.panelTitlebar.TabIndex = 2;
             this.panelTitlebar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitlebar_MouseDown);
             // 
@@ -331,7 +331,7 @@
             this.iconButtonMax.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize;
             this.iconButtonMax.IconColor = System.Drawing.Color.White;
             this.iconButtonMax.IconSize = 21;
-            this.iconButtonMax.Location = new System.Drawing.Point(530, 3);
+            this.iconButtonMax.Location = new System.Drawing.Point(631, 3);
             this.iconButtonMax.Name = "iconButtonMax";
             this.iconButtonMax.Rotation = 0D;
             this.iconButtonMax.Size = new System.Drawing.Size(32, 22);
@@ -349,7 +349,7 @@
             this.iconButtonclose.IconChar = FontAwesome.Sharp.IconChar.WindowClose;
             this.iconButtonclose.IconColor = System.Drawing.Color.White;
             this.iconButtonclose.IconSize = 21;
-            this.iconButtonclose.Location = new System.Drawing.Point(565, 6);
+            this.iconButtonclose.Location = new System.Drawing.Point(666, 6);
             this.iconButtonclose.Name = "iconButtonclose";
             this.iconButtonclose.Rotation = 0D;
             this.iconButtonclose.Size = new System.Drawing.Size(32, 17);
@@ -367,7 +367,7 @@
             this.iconButtonMin.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
             this.iconButtonMin.IconColor = System.Drawing.Color.White;
             this.iconButtonMin.IconSize = 21;
-            this.iconButtonMin.Location = new System.Drawing.Point(503, -1);
+            this.iconButtonMin.Location = new System.Drawing.Point(604, -1);
             this.iconButtonMin.Name = "iconButtonMin";
             this.iconButtonMin.Rotation = 0D;
             this.iconButtonMin.Size = new System.Drawing.Size(21, 26);
@@ -423,7 +423,7 @@
             this.Desktoppanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Desktoppanel.Location = new System.Drawing.Point(200, 32);
             this.Desktoppanel.Name = "Desktoppanel";
-            this.Desktoppanel.Size = new System.Drawing.Size(600, 454);
+            this.Desktoppanel.Size = new System.Drawing.Size(701, 454);
             this.Desktoppanel.TabIndex = 3;
             // 
             // iconButtonReport
@@ -438,7 +438,7 @@
             this.iconButtonReport.IconChar = FontAwesome.Sharp.IconChar.None;
             this.iconButtonReport.IconColor = System.Drawing.Color.Black;
             this.iconButtonReport.IconSize = 16;
-            this.iconButtonReport.Location = new System.Drawing.Point(447, 383);
+            this.iconButtonReport.Location = new System.Drawing.Point(548, 383);
             this.iconButtonReport.Name = "iconButtonReport";
             this.iconButtonReport.Rotation = 0D;
             this.iconButtonReport.Size = new System.Drawing.Size(115, 30);
@@ -459,7 +459,7 @@
             this.iconButtonCompet.IconChar = FontAwesome.Sharp.IconChar.None;
             this.iconButtonCompet.IconColor = System.Drawing.Color.Black;
             this.iconButtonCompet.IconSize = 16;
-            this.iconButtonCompet.Location = new System.Drawing.Point(235, 383);
+            this.iconButtonCompet.Location = new System.Drawing.Point(285, 383);
             this.iconButtonCompet.Name = "iconButtonCompet";
             this.iconButtonCompet.Rotation = 0D;
             this.iconButtonCompet.Size = new System.Drawing.Size(136, 30);
@@ -501,7 +501,7 @@
             this.iconButtoncheckout.IconChar = FontAwesome.Sharp.IconChar.None;
             this.iconButtoncheckout.IconColor = System.Drawing.Color.Black;
             this.iconButtoncheckout.IconSize = 16;
-            this.iconButtoncheckout.Location = new System.Drawing.Point(447, 166);
+            this.iconButtoncheckout.Location = new System.Drawing.Point(548, 166);
             this.iconButtoncheckout.Name = "iconButtoncheckout";
             this.iconButtoncheckout.Rotation = 0D;
             this.iconButtoncheckout.Size = new System.Drawing.Size(115, 30);
@@ -530,7 +530,7 @@
             this.iconButtonBook.IconChar = FontAwesome.Sharp.IconChar.None;
             this.iconButtonBook.IconColor = System.Drawing.Color.Black;
             this.iconButtonBook.IconSize = 16;
-            this.iconButtonBook.Location = new System.Drawing.Point(245, 166);
+            this.iconButtonBook.Location = new System.Drawing.Point(295, 166);
             this.iconButtonBook.Name = "iconButtonBook";
             this.iconButtonBook.Rotation = 0D;
             this.iconButtonBook.Size = new System.Drawing.Size(115, 30);
@@ -576,7 +576,7 @@
             this.pictureBoxReports.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBoxReports.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxReports.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxReports.Image")));
-            this.pictureBoxReports.Location = new System.Drawing.Point(447, 272);
+            this.pictureBoxReports.Location = new System.Drawing.Point(548, 272);
             this.pictureBoxReports.Name = "pictureBoxReports";
             this.pictureBoxReports.Size = new System.Drawing.Size(115, 89);
             this.pictureBoxReports.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -589,7 +589,7 @@
             this.pictureBoxCheckout.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBoxCheckout.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxCheckout.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxCheckout.Image")));
-            this.pictureBoxCheckout.Location = new System.Drawing.Point(447, 63);
+            this.pictureBoxCheckout.Location = new System.Drawing.Point(548, 63);
             this.pictureBoxCheckout.Name = "pictureBoxCheckout";
             this.pictureBoxCheckout.Size = new System.Drawing.Size(115, 89);
             this.pictureBoxCheckout.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -615,7 +615,7 @@
             this.pictureBoxbook.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBoxbook.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxbook.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxbook.Image")));
-            this.pictureBoxbook.Location = new System.Drawing.Point(245, 63);
+            this.pictureBoxbook.Location = new System.Drawing.Point(295, 63);
             this.pictureBoxbook.Name = "pictureBoxbook";
             this.pictureBoxbook.Size = new System.Drawing.Size(115, 89);
             this.pictureBoxbook.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -628,7 +628,7 @@
             this.pictureBoxCompet.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBoxCompet.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxCompet.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxCompet.Image")));
-            this.pictureBoxCompet.Location = new System.Drawing.Point(245, 272);
+            this.pictureBoxCompet.Location = new System.Drawing.Point(295, 272);
             this.pictureBoxCompet.Name = "pictureBoxCompet";
             this.pictureBoxCompet.Size = new System.Drawing.Size(115, 89);
             this.pictureBoxCompet.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -640,7 +640,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 486);
+            this.ClientSize = new System.Drawing.Size(901, 486);
             this.Controls.Add(this.Desktoppanel);
             this.Controls.Add(this.panelTitlebar);
             this.Controls.Add(this.panelMenu);

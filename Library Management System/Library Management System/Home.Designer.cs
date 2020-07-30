@@ -30,19 +30,17 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(las));
             this.panelTitlebar = new System.Windows.Forms.Panel();
+            this.iconButtonMax = new FontAwesome.Sharp.IconButton();
+            this.iconButtonclose = new FontAwesome.Sharp.IconButton();
+            this.iconButtonMin = new FontAwesome.Sharp.IconButton();
             this.lblTitlechildform = new System.Windows.Forms.Label();
+            this.iconCurrentChildForm = new FontAwesome.Sharp.IconButton();
             this.panelLogo = new System.Windows.Forms.Panel();
+            this.Home = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.Desktoppanel = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.iconButtonMax = new FontAwesome.Sharp.IconButton();
-            this.iconButtonclose = new FontAwesome.Sharp.IconButton();
-            this.iconButtonMin = new FontAwesome.Sharp.IconButton();
-            this.iconCurrentChildForm = new FontAwesome.Sharp.IconButton();
             this.iconButton6 = new FontAwesome.Sharp.IconButton();
             this.btnCompetition = new FontAwesome.Sharp.IconButton();
             this.btnNews = new FontAwesome.Sharp.IconButton();
@@ -50,12 +48,14 @@
             this.btnBook = new FontAwesome.Sharp.IconButton();
             this.btnAccount = new FontAwesome.Sharp.IconButton();
             this.btnHome = new FontAwesome.Sharp.IconButton();
-            this.Home = new System.Windows.Forms.PictureBox();
+            this.Desktoppanel = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.panelTitlebar.SuspendLayout();
             this.panelLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Home)).BeginInit();
             this.panelMenu.SuspendLayout();
             this.Desktoppanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Home)).BeginInit();
             this.SuspendLayout();
             // 
             // panelTitlebar
@@ -72,115 +72,6 @@
             this.panelTitlebar.Size = new System.Drawing.Size(694, 32);
             this.panelTitlebar.TabIndex = 1;
             this.panelTitlebar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitlebar_MouseDown);
-            // 
-            // lblTitlechildform
-            // 
-            this.lblTitlechildform.AutoSize = true;
-            this.lblTitlechildform.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitlechildform.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTitlechildform.Location = new System.Drawing.Point(51, 6);
-            this.lblTitlechildform.Name = "lblTitlechildform";
-            this.lblTitlechildform.Size = new System.Drawing.Size(56, 20);
-            this.lblTitlechildform.TabIndex = 1;
-            this.lblTitlechildform.Text = "Home";
-            // 
-            // panelLogo
-            // 
-            this.panelLogo.Controls.Add(this.Home);
-            this.panelLogo.Controls.Add(this.label3);
-            this.panelLogo.Controls.Add(this.label2);
-            this.panelLogo.Controls.Add(this.label1);
-            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(200, 64);
-            this.panelLogo.TabIndex = 2;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(107, 35);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 16);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "System";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(76, 19);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(129, 16);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Library Management  ";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(107, 3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "NSBM   ";
-            // 
-            // panelMenu
-            // 
-            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(55)))), ((int)(((byte)(140)))));
-            this.panelMenu.Controls.Add(this.iconButton6);
-            this.panelMenu.Controls.Add(this.btnCompetition);
-            this.panelMenu.Controls.Add(this.btnNews);
-            this.panelMenu.Controls.Add(this.btnCheckout);
-            this.panelMenu.Controls.Add(this.btnBook);
-            this.panelMenu.Controls.Add(this.btnAccount);
-            this.panelMenu.Controls.Add(this.btnHome);
-            this.panelMenu.Controls.Add(this.panelLogo);
-            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelMenu.Location = new System.Drawing.Point(0, 0);
-            this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(200, 500);
-            this.panelMenu.TabIndex = 0;
-            // 
-            // Desktoppanel
-            // 
-            this.Desktoppanel.BackColor = System.Drawing.Color.White;
-            this.Desktoppanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Desktoppanel.BackgroundImage")));
-            this.Desktoppanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Desktoppanel.Controls.Add(this.label5);
-            this.Desktoppanel.Controls.Add(this.label4);
-            this.Desktoppanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Desktoppanel.Location = new System.Drawing.Point(200, 32);
-            this.Desktoppanel.Name = "Desktoppanel";
-            this.Desktoppanel.Size = new System.Drawing.Size(694, 468);
-            this.Desktoppanel.TabIndex = 2;
-            // 
-            // label5
-            // 
-            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Calisto MT", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(309, 200);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(256, 37);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "to NSBM Library";
-            // 
-            // label4
-            // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Calisto MT", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(181, 152);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(155, 37);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Welcome ";
             // 
             // iconButtonMax
             // 
@@ -236,6 +127,17 @@
             this.iconButtonMin.UseVisualStyleBackColor = true;
             this.iconButtonMin.Click += new System.EventHandler(this.iconButtonMin_Click);
             // 
+            // lblTitlechildform
+            // 
+            this.lblTitlechildform.AutoSize = true;
+            this.lblTitlechildform.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitlechildform.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTitlechildform.Location = new System.Drawing.Point(70, 6);
+            this.lblTitlechildform.Name = "lblTitlechildform";
+            this.lblTitlechildform.Size = new System.Drawing.Size(56, 20);
+            this.lblTitlechildform.TabIndex = 1;
+            this.lblTitlechildform.Text = "Home";
+            // 
             // iconCurrentChildForm
             // 
             this.iconCurrentChildForm.FlatAppearance.BorderSize = 0;
@@ -247,10 +149,79 @@
             this.iconCurrentChildForm.Location = new System.Drawing.Point(0, -1);
             this.iconCurrentChildForm.Name = "iconCurrentChildForm";
             this.iconCurrentChildForm.Rotation = 0D;
-            this.iconCurrentChildForm.Size = new System.Drawing.Size(64, 36);
+            this.iconCurrentChildForm.Size = new System.Drawing.Size(85, 36);
             this.iconCurrentChildForm.TabIndex = 0;
             this.iconCurrentChildForm.UseVisualStyleBackColor = true;
-           
+            // 
+            // panelLogo
+            // 
+            this.panelLogo.Controls.Add(this.Home);
+            this.panelLogo.Controls.Add(this.label3);
+            this.panelLogo.Controls.Add(this.label2);
+            this.panelLogo.Controls.Add(this.label1);
+            this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelLogo.Location = new System.Drawing.Point(0, 0);
+            this.panelLogo.Name = "panelLogo";
+            this.panelLogo.Size = new System.Drawing.Size(200, 64);
+            this.panelLogo.TabIndex = 2;
+            // 
+            // Home
+            // 
+            this.Home.Image = ((System.Drawing.Image)(resources.GetObject("Home.Image")));
+            this.Home.Location = new System.Drawing.Point(0, 3);
+            this.Home.Name = "Home";
+            this.Home.Size = new System.Drawing.Size(70, 43);
+            this.Home.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Home.TabIndex = 0;
+            this.Home.TabStop = false;
+            this.Home.Click += new System.EventHandler(this.Home_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(107, 35);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(49, 16);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "System";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(76, 19);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(129, 16);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Library Management  ";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(107, 3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(52, 16);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "NSBM   ";
+            // 
+            // panelMenu
+            // 
+            this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(55)))), ((int)(((byte)(140)))));
+            this.panelMenu.Controls.Add(this.iconButton6);
+            this.panelMenu.Controls.Add(this.btnCompetition);
+            this.panelMenu.Controls.Add(this.btnNews);
+            this.panelMenu.Controls.Add(this.btnCheckout);
+            this.panelMenu.Controls.Add(this.btnBook);
+            this.panelMenu.Controls.Add(this.btnAccount);
+            this.panelMenu.Controls.Add(this.btnHome);
+            this.panelMenu.Controls.Add(this.panelLogo);
+            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panelMenu.Location = new System.Drawing.Point(0, 0);
+            this.panelMenu.Name = "panelMenu";
+            this.panelMenu.Size = new System.Drawing.Size(200, 500);
+            this.panelMenu.TabIndex = 0;
             // 
             // iconButton6
             // 
@@ -273,7 +244,6 @@
             this.iconButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton6.UseVisualStyleBackColor = true;
-    
             // 
             // btnCompetition
             // 
@@ -413,16 +383,44 @@
             this.btnHome.UseVisualStyleBackColor = true;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
-            // Home
+            // Desktoppanel
             // 
-            this.Home.Image = ((System.Drawing.Image)(resources.GetObject("Home.Image")));
-            this.Home.Location = new System.Drawing.Point(0, 3);
-            this.Home.Name = "Home";
-            this.Home.Size = new System.Drawing.Size(70, 43);
-            this.Home.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Home.TabIndex = 0;
-            this.Home.TabStop = false;
-            this.Home.Click += new System.EventHandler(this.Home_Click);
+            this.Desktoppanel.BackColor = System.Drawing.Color.White;
+            this.Desktoppanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Desktoppanel.BackgroundImage")));
+            this.Desktoppanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Desktoppanel.Controls.Add(this.label5);
+            this.Desktoppanel.Controls.Add(this.label4);
+            this.Desktoppanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Desktoppanel.Location = new System.Drawing.Point(200, 32);
+            this.Desktoppanel.Name = "Desktoppanel";
+            this.Desktoppanel.Size = new System.Drawing.Size(694, 468);
+            this.Desktoppanel.TabIndex = 2;
+            // 
+            // label5
+            // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Calisto MT", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label5.Location = new System.Drawing.Point(309, 200);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(256, 37);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "to NSBM Library";
+            // 
+            // label4
+            // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Calisto MT", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label4.Location = new System.Drawing.Point(181, 152);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(155, 37);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Welcome ";
             // 
             // las
             // 
@@ -441,10 +439,10 @@
             this.panelTitlebar.PerformLayout();
             this.panelLogo.ResumeLayout(false);
             this.panelLogo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Home)).EndInit();
             this.panelMenu.ResumeLayout(false);
             this.Desktoppanel.ResumeLayout(false);
             this.Desktoppanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Home)).EndInit();
             this.ResumeLayout(false);
 
         }

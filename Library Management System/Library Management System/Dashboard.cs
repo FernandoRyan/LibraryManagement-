@@ -142,11 +142,9 @@ namespace Library_Management_System
 
         private void Home_Click(object sender, EventArgs e)
         {
-            if (currentChildForm != null)
-            {
-                currentChildForm.Close();
-            }
-            Reset();
+            this.Hide();
+            las nw = new las();
+            nw.Show();
         }
         private void Reset()
         {
