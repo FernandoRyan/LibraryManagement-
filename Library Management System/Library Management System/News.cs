@@ -16,5 +16,10 @@ namespace Library_Management_System
         {
             InitializeComponent();
         }
+
+        private void News_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
