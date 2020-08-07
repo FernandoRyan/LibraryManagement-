@@ -37,9 +37,6 @@
             this.iconCurrentChildForm = new FontAwesome.Sharp.IconButton();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.Home = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.panelMenu = new System.Windows.Forms.Panel();
             this.iconButton6 = new FontAwesome.Sharp.IconButton();
             this.btnCompetition = new FontAwesome.Sharp.IconButton();
@@ -51,6 +48,8 @@
             this.Desktoppanel = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panelTitlebar.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Home)).BeginInit();
@@ -155,10 +154,9 @@
             // 
             // panelLogo
             // 
-            this.panelLogo.Controls.Add(this.Home);
             this.panelLogo.Controls.Add(this.label3);
-            this.panelLogo.Controls.Add(this.label2);
             this.panelLogo.Controls.Add(this.label1);
+            this.panelLogo.Controls.Add(this.Home);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
@@ -168,43 +166,13 @@
             // Home
             // 
             this.Home.Image = ((System.Drawing.Image)(resources.GetObject("Home.Image")));
-            this.Home.Location = new System.Drawing.Point(0, 3);
+            this.Home.Location = new System.Drawing.Point(0, -1);
             this.Home.Name = "Home";
-            this.Home.Size = new System.Drawing.Size(70, 43);
+            this.Home.Size = new System.Drawing.Size(70, 47);
             this.Home.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Home.TabIndex = 0;
             this.Home.TabStop = false;
             this.Home.Click += new System.EventHandler(this.Home_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(107, 35);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 16);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "System";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(76, 19);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(129, 16);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Library Management  ";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(107, 3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 16);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "NSBM   ";
             // 
             // panelMenu
             // 
@@ -422,6 +390,26 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Welcome ";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(110, 23);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(49, 16);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "System";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(92, 7);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(90, 16);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "NSBM  Library ";
+            // 
             // las
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -463,13 +451,12 @@
         private FontAwesome.Sharp.IconButton iconButtonMax;
         private FontAwesome.Sharp.IconButton iconButtonclose;
         private FontAwesome.Sharp.IconButton iconButtonMin;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
         private FontAwesome.Sharp.IconButton iconButton6;
         private FontAwesome.Sharp.IconButton btnCompetition;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label1;
     }
 }
 

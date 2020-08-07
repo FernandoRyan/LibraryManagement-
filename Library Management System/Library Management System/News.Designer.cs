@@ -31,11 +31,11 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(News));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnReadmore = new System.Windows.Forms.Button();
-            this.btnNews = new System.Windows.Forms.Button();
-            this.btnLatestNews = new System.Windows.Forms.Button();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.btnLatestNews = new System.Windows.Forms.Button();
+            this.btnNews = new System.Windows.Forms.Button();
+            this.btnReadmore = new System.Windows.Forms.Button();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,40 +48,57 @@
             this.groupBox1.Controls.Add(this.btnReadmore);
             this.groupBox1.Font = new System.Drawing.Font("Nirmala UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox1.Location = new System.Drawing.Point(12, 2);
+            this.groupBox1.Location = new System.Drawing.Point(9, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(784, 444);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(588, 361);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Latest News";
             // 
-            // btnReadmore
+            // richTextBox1
             // 
-            this.btnReadmore.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnReadmore.Location = new System.Drawing.Point(520, 352);
-            this.btnReadmore.Name = "btnReadmore";
-            this.btnReadmore.Size = new System.Drawing.Size(193, 46);
-            this.btnReadmore.TabIndex = 1;
-            this.btnReadmore.Text = "Read more";
-            this.btnReadmore.UseVisualStyleBackColor = true;
-            // 
-            // btnNews
-            // 
-            this.btnNews.Image = ((System.Drawing.Image)(resources.GetObject("btnNews.Image")));
-            this.btnNews.Location = new System.Drawing.Point(30, 56);
-            this.btnNews.Name = "btnNews";
-            this.btnNews.Size = new System.Drawing.Size(310, 86);
-            this.btnNews.TabIndex = 2;
-            this.btnNews.UseVisualStyleBackColor = true;
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.richTextBox1.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.richTextBox1.Location = new System.Drawing.Point(298, 66);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(285, 142);
+            this.richTextBox1.TabIndex = 4;
+            this.richTextBox1.Text = "The COVID-19 pandemic has upended the lives of children and their families as hea" +
+    "lth systems buckle, borders close, and schools and businesses shutter. ";
             // 
             // btnLatestNews
             // 
             this.btnLatestNews.Image = ((System.Drawing.Image)(resources.GetObject("btnLatestNews.Image")));
-            this.btnLatestNews.Location = new System.Drawing.Point(30, 256);
+            this.btnLatestNews.Location = new System.Drawing.Point(22, 208);
+            this.btnLatestNews.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLatestNews.Name = "btnLatestNews";
-            this.btnLatestNews.Size = new System.Drawing.Size(310, 168);
+            this.btnLatestNews.Size = new System.Drawing.Size(232, 136);
             this.btnLatestNews.TabIndex = 3;
             this.btnLatestNews.UseVisualStyleBackColor = true;
+            // 
+            // btnNews
+            // 
+            this.btnNews.Image = ((System.Drawing.Image)(resources.GetObject("btnNews.Image")));
+            this.btnNews.Location = new System.Drawing.Point(4, 29);
+            this.btnNews.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNews.Name = "btnNews";
+            this.btnNews.Size = new System.Drawing.Size(250, 87);
+            this.btnNews.TabIndex = 2;
+            this.btnNews.UseVisualStyleBackColor = true;
+            // 
+            // btnReadmore
+            // 
+            this.btnReadmore.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnReadmore.Location = new System.Drawing.Point(390, 286);
+            this.btnReadmore.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnReadmore.Name = "btnReadmore";
+            this.btnReadmore.Size = new System.Drawing.Size(145, 37);
+            this.btnReadmore.TabIndex = 1;
+            this.btnReadmore.Text = "Read more";
+            this.btnReadmore.UseVisualStyleBackColor = true;
             // 
             // contextMenuStrip1
             // 
@@ -89,25 +106,15 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // richTextBox1
-            // 
-            this.richTextBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.richTextBox1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.richTextBox1.Location = new System.Drawing.Point(397, 81);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(379, 174);
-            this.richTextBox1.TabIndex = 4;
-            this.richTextBox1.Text = "The COVID-19 pandemic has upended the lives of children and their families as hea" +
-    "lth systems buckle, borders close, and schools and businesses shutter. ";
-            // 
             // News
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(34)))), ((int)(((byte)(69)))));
-            this.ClientSize = new System.Drawing.Size(809, 456);
+            this.ClientSize = new System.Drawing.Size(607, 370);
             this.Controls.Add(this.groupBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "News";
             this.Text = "News";
             this.Load += new System.EventHandler(this.News_Load);
