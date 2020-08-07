@@ -39,7 +39,6 @@
             this.btnHome = new FontAwesome.Sharp.IconButton();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.Home = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panelTitlebar = new System.Windows.Forms.Panel();
             this.iconButtonMax = new FontAwesome.Sharp.IconButton();
@@ -61,6 +60,7 @@
             this.pictureBoxNews = new System.Windows.Forms.PictureBox();
             this.pictureBoxbook = new System.Windows.Forms.PictureBox();
             this.pictureBoxCompet = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Home)).BeginInit();
@@ -144,7 +144,7 @@
             this.btnNews.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNews.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.btnNews.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnNews.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
+            this.btnNews.IconChar = FontAwesome.Sharp.IconChar.CartArrowDown;
             this.btnNews.IconColor = System.Drawing.Color.Gainsboro;
             this.btnNews.IconSize = 33;
             this.btnNews.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -154,7 +154,7 @@
             this.btnNews.Rotation = 0D;
             this.btnNews.Size = new System.Drawing.Size(200, 60);
             this.btnNews.TabIndex = 7;
-            this.btnNews.Text = "News";
+            this.btnNews.Text = "Checkout";
             this.btnNews.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnNews.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnNews.UseVisualStyleBackColor = true;
@@ -167,7 +167,7 @@
             this.btnCheckout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCheckout.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.btnCheckout.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCheckout.IconChar = FontAwesome.Sharp.IconChar.CartArrowDown;
+            this.btnCheckout.IconChar = FontAwesome.Sharp.IconChar.Book;
             this.btnCheckout.IconColor = System.Drawing.Color.Gainsboro;
             this.btnCheckout.IconSize = 33;
             this.btnCheckout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -177,7 +177,7 @@
             this.btnCheckout.Rotation = 0D;
             this.btnCheckout.Size = new System.Drawing.Size(200, 60);
             this.btnCheckout.TabIndex = 6;
-            this.btnCheckout.Text = "Checkout";
+            this.btnCheckout.Text = "Book";
             this.btnCheckout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCheckout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCheckout.UseVisualStyleBackColor = true;
@@ -190,7 +190,7 @@
             this.btnBook.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBook.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.btnBook.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnBook.IconChar = FontAwesome.Sharp.IconChar.Book;
+            this.btnBook.IconChar = FontAwesome.Sharp.IconChar.Registered;
             this.btnBook.IconColor = System.Drawing.Color.Gainsboro;
             this.btnBook.IconSize = 33;
             this.btnBook.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -200,7 +200,7 @@
             this.btnBook.Rotation = 0D;
             this.btnBook.Size = new System.Drawing.Size(200, 60);
             this.btnBook.TabIndex = 5;
-            this.btnBook.Text = "Book";
+            this.btnBook.Text = "Register";
             this.btnBook.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBook.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnBook.UseVisualStyleBackColor = true;
@@ -254,8 +254,8 @@
             // 
             // panelLogo
             // 
-            this.panelLogo.Controls.Add(this.Home);
             this.panelLogo.Controls.Add(this.label3);
+            this.panelLogo.Controls.Add(this.Home);
             this.panelLogo.Controls.Add(this.label1);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
@@ -273,17 +273,6 @@
             this.Home.TabIndex = 0;
             this.Home.TabStop = false;
             this.Home.Click += new System.EventHandler(this.Home_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(105, 21);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 16);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "System";
             // 
             // label1
             // 
@@ -626,6 +615,17 @@
             this.pictureBoxCompet.TabStop = false;
             this.pictureBoxCompet.Click += new System.EventHandler(this.pictureBoxCompet_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(71, 21);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(126, 16);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Management System";
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -667,7 +667,6 @@
         private FontAwesome.Sharp.IconButton btnHome;
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.PictureBox Home;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panelTitlebar;
         private FontAwesome.Sharp.IconButton iconButtonMax;
@@ -689,5 +688,6 @@
         private FontAwesome.Sharp.IconButton iconButtonNews;
         private FontAwesome.Sharp.IconButton iconButtoncheckout;
         private FontAwesome.Sharp.IconButton iconButtonReport;
+        private System.Windows.Forms.Label label3;
     }
 }

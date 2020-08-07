@@ -36,20 +36,20 @@
             this.lblTitlechildform = new System.Windows.Forms.Label();
             this.iconCurrentChildForm = new FontAwesome.Sharp.IconButton();
             this.panelLogo = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.Home = new System.Windows.Forms.PictureBox();
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.iconButton6 = new FontAwesome.Sharp.IconButton();
+            this.btnReport = new FontAwesome.Sharp.IconButton();
             this.btnCompetition = new FontAwesome.Sharp.IconButton();
-            this.btnNews = new FontAwesome.Sharp.IconButton();
             this.btnCheckout = new FontAwesome.Sharp.IconButton();
             this.btnBook = new FontAwesome.Sharp.IconButton();
+            this.btnRegister = new FontAwesome.Sharp.IconButton();
             this.btnAccount = new FontAwesome.Sharp.IconButton();
             this.btnHome = new FontAwesome.Sharp.IconButton();
             this.Desktoppanel = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panelTitlebar.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Home)).BeginInit();
@@ -163,6 +163,26 @@
             this.panelLogo.Size = new System.Drawing.Size(200, 64);
             this.panelLogo.TabIndex = 2;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(76, 23);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(126, 16);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Management System";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(92, 7);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(90, 16);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "NSBM  Library ";
+            // 
             // Home
             // 
             this.Home.Image = ((System.Drawing.Image)(resources.GetObject("Home.Image")));
@@ -177,11 +197,11 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(55)))), ((int)(((byte)(140)))));
-            this.panelMenu.Controls.Add(this.iconButton6);
+            this.panelMenu.Controls.Add(this.btnReport);
             this.panelMenu.Controls.Add(this.btnCompetition);
-            this.panelMenu.Controls.Add(this.btnNews);
             this.panelMenu.Controls.Add(this.btnCheckout);
             this.panelMenu.Controls.Add(this.btnBook);
+            this.panelMenu.Controls.Add(this.btnRegister);
             this.panelMenu.Controls.Add(this.btnAccount);
             this.panelMenu.Controls.Add(this.btnHome);
             this.panelMenu.Controls.Add(this.panelLogo);
@@ -191,27 +211,28 @@
             this.panelMenu.Size = new System.Drawing.Size(200, 500);
             this.panelMenu.TabIndex = 0;
             // 
-            // iconButton6
+            // btnReport
             // 
-            this.iconButton6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.iconButton6.FlatAppearance.BorderSize = 0;
-            this.iconButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton6.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButton6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.iconButton6.IconChar = FontAwesome.Sharp.IconChar.ChartPie;
-            this.iconButton6.IconColor = System.Drawing.Color.Gainsboro;
-            this.iconButton6.IconSize = 33;
-            this.iconButton6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton6.Location = new System.Drawing.Point(0, 424);
-            this.iconButton6.Name = "iconButton6";
-            this.iconButton6.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.iconButton6.Rotation = 0D;
-            this.iconButton6.Size = new System.Drawing.Size(200, 60);
-            this.iconButton6.TabIndex = 9;
-            this.iconButton6.Text = "Report";
-            this.iconButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.iconButton6.UseVisualStyleBackColor = true;
+            this.btnReport.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnReport.FlatAppearance.BorderSize = 0;
+            this.btnReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnReport.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnReport.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnReport.IconChar = FontAwesome.Sharp.IconChar.ChartPie;
+            this.btnReport.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnReport.IconSize = 33;
+            this.btnReport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReport.Location = new System.Drawing.Point(0, 424);
+            this.btnReport.Name = "btnReport";
+            this.btnReport.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnReport.Rotation = 0D;
+            this.btnReport.Size = new System.Drawing.Size(200, 60);
+            this.btnReport.TabIndex = 14;
+            this.btnReport.Text = "Report";
+            this.btnReport.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnReport.UseVisualStyleBackColor = true;
+            this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
             // 
             // btnCompetition
             // 
@@ -229,35 +250,12 @@
             this.btnCompetition.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnCompetition.Rotation = 0D;
             this.btnCompetition.Size = new System.Drawing.Size(200, 60);
-            this.btnCompetition.TabIndex = 8;
+            this.btnCompetition.TabIndex = 13;
             this.btnCompetition.Text = "Competition";
             this.btnCompetition.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCompetition.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCompetition.UseVisualStyleBackColor = true;
             this.btnCompetition.Click += new System.EventHandler(this.btnCompetition_Click);
-            // 
-            // btnNews
-            // 
-            this.btnNews.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnNews.FlatAppearance.BorderSize = 0;
-            this.btnNews.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNews.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.btnNews.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnNews.IconChar = FontAwesome.Sharp.IconChar.Newspaper;
-            this.btnNews.IconColor = System.Drawing.Color.Gainsboro;
-            this.btnNews.IconSize = 33;
-            this.btnNews.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNews.Location = new System.Drawing.Point(0, 304);
-            this.btnNews.Name = "btnNews";
-            this.btnNews.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnNews.Rotation = 0D;
-            this.btnNews.Size = new System.Drawing.Size(200, 60);
-            this.btnNews.TabIndex = 7;
-            this.btnNews.Text = "News";
-            this.btnNews.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNews.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnNews.UseVisualStyleBackColor = true;
-            this.btnNews.Click += new System.EventHandler(this.btnNews_Click);
             // 
             // btnCheckout
             // 
@@ -270,12 +268,12 @@
             this.btnCheckout.IconColor = System.Drawing.Color.Gainsboro;
             this.btnCheckout.IconSize = 33;
             this.btnCheckout.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCheckout.Location = new System.Drawing.Point(0, 244);
+            this.btnCheckout.Location = new System.Drawing.Point(0, 304);
             this.btnCheckout.Name = "btnCheckout";
             this.btnCheckout.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnCheckout.Rotation = 0D;
             this.btnCheckout.Size = new System.Drawing.Size(200, 60);
-            this.btnCheckout.TabIndex = 6;
+            this.btnCheckout.TabIndex = 12;
             this.btnCheckout.Text = "Checkout";
             this.btnCheckout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCheckout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -293,17 +291,40 @@
             this.btnBook.IconColor = System.Drawing.Color.Gainsboro;
             this.btnBook.IconSize = 33;
             this.btnBook.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnBook.Location = new System.Drawing.Point(0, 184);
+            this.btnBook.Location = new System.Drawing.Point(0, 244);
             this.btnBook.Name = "btnBook";
             this.btnBook.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnBook.Rotation = 0D;
             this.btnBook.Size = new System.Drawing.Size(200, 60);
-            this.btnBook.TabIndex = 5;
+            this.btnBook.TabIndex = 11;
             this.btnBook.Text = "Book";
             this.btnBook.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBook.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnBook.UseVisualStyleBackColor = true;
             this.btnBook.Click += new System.EventHandler(this.btnBook_Click);
+            // 
+            // btnRegister
+            // 
+            this.btnRegister.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnRegister.FlatAppearance.BorderSize = 0;
+            this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegister.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.btnRegister.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnRegister.IconChar = FontAwesome.Sharp.IconChar.Registered;
+            this.btnRegister.IconColor = System.Drawing.Color.Gainsboro;
+            this.btnRegister.IconSize = 33;
+            this.btnRegister.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRegister.Location = new System.Drawing.Point(0, 184);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btnRegister.Rotation = 0D;
+            this.btnRegister.Size = new System.Drawing.Size(200, 60);
+            this.btnRegister.TabIndex = 10;
+            this.btnRegister.Text = "Register";
+            this.btnRegister.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRegister.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
             // btnAccount
             // 
@@ -356,59 +377,37 @@
             this.Desktoppanel.BackColor = System.Drawing.Color.White;
             this.Desktoppanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Desktoppanel.BackgroundImage")));
             this.Desktoppanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Desktoppanel.Controls.Add(this.label5);
             this.Desktoppanel.Controls.Add(this.label4);
+            this.Desktoppanel.Controls.Add(this.label2);
             this.Desktoppanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Desktoppanel.Location = new System.Drawing.Point(200, 32);
             this.Desktoppanel.Name = "Desktoppanel";
             this.Desktoppanel.Size = new System.Drawing.Size(694, 468);
-            this.Desktoppanel.TabIndex = 2;
-            // 
-            // label5
-            // 
-            this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Calisto MT", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(309, 200);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(256, 37);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "to NSBM Library";
+            this.Desktoppanel.TabIndex = 4;
             // 
             // label4
             // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Calisto MT", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Uighur", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(181, 152);
+            this.label4.Location = new System.Drawing.Point(320, 165);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(155, 37);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Welcome ";
+            this.label4.Size = new System.Drawing.Size(236, 57);
+            this.label4.TabIndex = 18;
+            this.label4.Text = "NSBM Library";
             // 
-            // label3
+            // label2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(110, 23);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 16);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "System";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(92, 7);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 16);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "NSBM  Library ";
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Uighur", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.Location = new System.Drawing.Point(175, 108);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(196, 57);
+            this.label2.TabIndex = 17;
+            this.label2.Text = "Welcome to";
             // 
             // las
             // 
@@ -439,24 +438,24 @@
         private System.Windows.Forms.Panel panelTitlebar;
         private FontAwesome.Sharp.IconButton iconCurrentChildForm;
         private System.Windows.Forms.Label lblTitlechildform;
-        private System.Windows.Forms.Panel Desktoppanel;
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.PictureBox Home;
-        private FontAwesome.Sharp.IconButton btnHome;
-        private FontAwesome.Sharp.IconButton btnAccount;
-        private FontAwesome.Sharp.IconButton btnBook;
-        private FontAwesome.Sharp.IconButton btnCheckout;
-        private FontAwesome.Sharp.IconButton btnNews;
         private System.Windows.Forms.Panel panelMenu;
         private FontAwesome.Sharp.IconButton iconButtonMax;
         private FontAwesome.Sharp.IconButton iconButtonclose;
         private FontAwesome.Sharp.IconButton iconButtonMin;
-        private FontAwesome.Sharp.IconButton iconButton6;
-        private FontAwesome.Sharp.IconButton btnCompetition;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
+        private FontAwesome.Sharp.IconButton btnAccount;
+        private FontAwesome.Sharp.IconButton btnHome;
+        private FontAwesome.Sharp.IconButton btnReport;
+        private FontAwesome.Sharp.IconButton btnCompetition;
+        private FontAwesome.Sharp.IconButton btnCheckout;
+        private FontAwesome.Sharp.IconButton btnBook;
+        private FontAwesome.Sharp.IconButton btnRegister;
+        private System.Windows.Forms.Panel Desktoppanel;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label2;
     }
 }
 

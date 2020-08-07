@@ -116,38 +116,36 @@ namespace Library_Management_System
             OpenChildForm(new Account());
         }
 
-        private void btnBook_Click(object sender, EventArgs e)
+        private void btnRegister_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color3);
-            OpenChildForm(new Book());
-
+            OpenChildForm(new Registraton());
         }
 
+        private void btnBook_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color4);
+            OpenChildForm(new Book());
+        }
 
         private void btnCheckout_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender, RGBColors.color4);
-            OpenChildForm(new Checkout());
-        }
-        private void reportview_Click(object sender, EventArgs e)
-        {
             ActivateButton(sender, RGBColors.color5);
-            OpenChildForm(new Report());
-        }
-      
-        private void btnNews_Click(object sender, EventArgs e)
-        {
-
-            ActivateButton(sender, RGBColors.color6);
-            OpenChildForm(new News());
-
+            OpenChildForm(new Account());
         }
 
         private void btnCompetition_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender, RGBColors.color7);
+            ActivateButton(sender, RGBColors.color6);
             OpenChildForm(new Competitions());
         }
+
+        private void btnReport_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color7);
+            OpenChildForm(new Report());
+        }
+
 
         private void Home_Click(object sender, EventArgs e)
         {
@@ -199,7 +197,6 @@ namespace Library_Management_System
 
         }
 
-       
     }
 }
         

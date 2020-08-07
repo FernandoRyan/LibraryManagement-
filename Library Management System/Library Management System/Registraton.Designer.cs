@@ -43,24 +43,21 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.SID = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pwtxt = new System.Windows.Forms.TextBox();
-            this.iconButtonMax = new FontAwesome.Sharp.IconButton();
-            this.iconButtonclose = new FontAwesome.Sharp.IconButton();
-            this.iconButtonMin = new FontAwesome.Sharp.IconButton();
             this.SuspendLayout();
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label1.Location = new System.Drawing.Point(122, 20);
+            this.label1.Location = new System.Drawing.Point(131, 42);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(236, 44);
@@ -228,34 +225,21 @@
             // 
             // button2
             // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(182)))), ((int)(((byte)(36)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button2.Location = new System.Drawing.Point(107, 436);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.MaximumSize = new System.Drawing.Size(286, 33);
+            this.button2.MinimumSize = new System.Drawing.Size(286, 33);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(286, 33);
             this.button2.TabIndex = 21;
             this.button2.Text = "Register";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.LinkColor = System.Drawing.SystemColors.MenuHighlight;
-            this.linkLabel1.Location = new System.Drawing.Point(226, 487);
-            this.linkLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(38, 15);
-            this.linkLabel1.TabIndex = 22;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Login";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // panel6
             // 
@@ -335,74 +319,16 @@
             this.pwtxt.Size = new System.Drawing.Size(192, 17);
             this.pwtxt.TabIndex = 25;
             // 
-            // iconButtonMax
-            // 
-            this.iconButtonMax.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconButtonMax.FlatAppearance.BorderSize = 0;
-            this.iconButtonMax.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonMax.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonMax.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.iconButtonMax.IconChar = FontAwesome.Sharp.IconChar.WindowMaximize;
-            this.iconButtonMax.IconColor = System.Drawing.Color.White;
-            this.iconButtonMax.IconSize = 21;
-            this.iconButtonMax.Location = new System.Drawing.Point(412, 0);
-            this.iconButtonMax.Name = "iconButtonMax";
-            this.iconButtonMax.Rotation = 0D;
-            this.iconButtonMax.Size = new System.Drawing.Size(32, 22);
-            this.iconButtonMax.TabIndex = 30;
-            this.iconButtonMax.UseVisualStyleBackColor = true;
-            this.iconButtonMax.Click += new System.EventHandler(this.iconButtonMax_Click);
-            // 
-            // iconButtonclose
-            // 
-            this.iconButtonclose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconButtonclose.FlatAppearance.BorderSize = 0;
-            this.iconButtonclose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonclose.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonclose.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.iconButtonclose.IconChar = FontAwesome.Sharp.IconChar.WindowClose;
-            this.iconButtonclose.IconColor = System.Drawing.Color.White;
-            this.iconButtonclose.IconSize = 21;
-            this.iconButtonclose.Location = new System.Drawing.Point(447, 3);
-            this.iconButtonclose.Name = "iconButtonclose";
-            this.iconButtonclose.Rotation = 0D;
-            this.iconButtonclose.Size = new System.Drawing.Size(32, 17);
-            this.iconButtonclose.TabIndex = 29;
-            this.iconButtonclose.UseVisualStyleBackColor = true;
-            this.iconButtonclose.Click += new System.EventHandler(this.iconButtonclose_Click);
-            // 
-            // iconButtonMin
-            // 
-            this.iconButtonMin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconButtonMin.FlatAppearance.BorderSize = 0;
-            this.iconButtonMin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButtonMin.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.iconButtonMin.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.iconButtonMin.IconChar = FontAwesome.Sharp.IconChar.WindowMinimize;
-            this.iconButtonMin.IconColor = System.Drawing.Color.White;
-            this.iconButtonMin.IconSize = 21;
-            this.iconButtonMin.Location = new System.Drawing.Point(385, -6);
-            this.iconButtonMin.Name = "iconButtonMin";
-            this.iconButtonMin.Rotation = 0D;
-            this.iconButtonMin.Size = new System.Drawing.Size(21, 26);
-            this.iconButtonMin.TabIndex = 28;
-            this.iconButtonMin.UseVisualStyleBackColor = true;
-            this.iconButtonMin.Click += new System.EventHandler(this.iconButtonMin_Click);
-            // 
             // Registraton
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(34)))), ((int)(((byte)(69)))));
             this.ClientSize = new System.Drawing.Size(485, 519);
-            this.Controls.Add(this.iconButtonMax);
-            this.Controls.Add(this.iconButtonclose);
-            this.Controls.Add(this.iconButtonMin);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pwtxt);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.contacttxt);
             this.Controls.Add(this.panel5);
@@ -425,7 +351,6 @@
             this.Name = "Registraton";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registraton";
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Registraton_MouseDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -448,15 +373,11 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox SID;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox pwtxt;
-        private FontAwesome.Sharp.IconButton iconButtonMax;
-        private FontAwesome.Sharp.IconButton iconButtonclose;
-        private FontAwesome.Sharp.IconButton iconButtonMin;
     }
 }

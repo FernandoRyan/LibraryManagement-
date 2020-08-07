@@ -113,13 +113,13 @@ namespace Library_Management_System
         private void btnBook_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color3);
-            OpenChildForm(new Book());
+            OpenChildForm(new Registraton());
         }
 
         private void btnCheckout_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color4);
-            OpenChildForm(new Checkout());
+            OpenChildForm(new Book());
         }
 
         private void iconButton6_Click(object sender, EventArgs e)
@@ -131,7 +131,7 @@ namespace Library_Management_System
         private void btnNews_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color6);
-            OpenChildForm(new News());
+            OpenChildForm(new Checkout());
         }
 
         private void btnCompetition_Click(object sender, EventArgs e)
