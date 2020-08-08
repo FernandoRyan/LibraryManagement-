@@ -17,6 +17,11 @@ namespace Library_Management_System
             InitializeComponent();
         }
 
-       
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+           Add_new_Book Book = new Add_new_Book();
+            Book.Show();
+        }
     }
 }

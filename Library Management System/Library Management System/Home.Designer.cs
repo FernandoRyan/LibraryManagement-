@@ -297,7 +297,7 @@
             this.btnBook.Rotation = 0D;
             this.btnBook.Size = new System.Drawing.Size(200, 60);
             this.btnBook.TabIndex = 11;
-            this.btnBook.Text = "Book";
+            this.btnBook.Text = "Books";
             this.btnBook.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBook.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnBook.UseVisualStyleBackColor = true;
