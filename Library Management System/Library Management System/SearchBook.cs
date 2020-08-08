@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Library_Management_System
 {
-    public partial class Events : Form
+    public partial class SearchBook : Form
     {
-        public Events()
+        public SearchBook()
         {
             InitializeComponent();
         }

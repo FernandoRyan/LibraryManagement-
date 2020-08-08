@@ -131,7 +131,7 @@ namespace Library_Management_System
         private void btnCheckout_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color5);
-            OpenChildForm(new Account());
+            OpenChildForm(new Checkout());
         }
 
         private void btnCompetition_Click(object sender, EventArgs e)

@@ -38,6 +38,7 @@
             this.btnAccount = new FontAwesome.Sharp.IconButton();
             this.btnHome = new FontAwesome.Sharp.IconButton();
             this.panelLogo = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.Home = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panelTitlebar = new System.Windows.Forms.Panel();
@@ -60,7 +61,6 @@
             this.pictureBoxNews = new System.Windows.Forms.PictureBox();
             this.pictureBoxbook = new System.Windows.Forms.PictureBox();
             this.pictureBoxCompet = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Home)).BeginInit();
@@ -263,6 +263,17 @@
             this.panelLogo.Size = new System.Drawing.Size(200, 64);
             this.panelLogo.TabIndex = 2;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.Location = new System.Drawing.Point(71, 21);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(126, 16);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Management System";
+            // 
             // Home
             // 
             this.Home.Image = ((System.Drawing.Image)(resources.GetObject("Home.Image")));
@@ -464,7 +475,7 @@
             this.iconButtonNews.Rotation = 0D;
             this.iconButtonNews.Size = new System.Drawing.Size(115, 30);
             this.iconButtonNews.TabIndex = 14;
-            this.iconButtonNews.Text = "News....";
+            this.iconButtonNews.Text = "Register ....";
             this.iconButtonNews.UseVisualStyleBackColor = false;
             this.iconButtonNews.Click += new System.EventHandler(this.iconButtonNews_Click);
             // 
@@ -614,17 +625,6 @@
             this.pictureBoxCompet.TabIndex = 1;
             this.pictureBoxCompet.TabStop = false;
             this.pictureBoxCompet.Click += new System.EventHandler(this.pictureBoxCompet_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(71, 21);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(126, 16);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Management System";
             // 
             // Dashboard
             // 

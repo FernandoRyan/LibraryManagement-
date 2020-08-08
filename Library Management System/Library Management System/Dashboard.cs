@@ -187,11 +187,7 @@ namespace Library_Management_System
         }
 
         //Dashboard icons
-        private void pictureBoxacc_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGBColors.color2);
-            OpenChildForm(new Account());
-        }
+       
 
         private void iconButtonAcc_Click(object sender, EventArgs e)
         {
@@ -205,11 +201,7 @@ namespace Library_Management_System
             OpenChildForm(new Book());
         }
 
-        private void pictureBoxbook_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGBColors.color3);
-            OpenChildForm(new Book());
-        }
+    
 
         private void iconButtoncheckout_Click(object sender, EventArgs e)
         {
@@ -217,28 +209,16 @@ namespace Library_Management_System
             OpenChildForm(new Checkout());
         }
 
-        private void pictureBoxCheckout_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGBColors.color4);
-            OpenChildForm(new Checkout());
-        }
+     
 
-        private void pictureBoxNews_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGBColors.color6);
-            OpenChildForm(new News());
-        }
-
+     
         private void iconButtonNews_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color6);
-            OpenChildForm(new News());
+            OpenChildForm(new Registraton());
         }
 
-        private void pictureBoxCompet_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Competitions());
-        }
+     
 
         private void iconButtonCompet_Click(object sender, EventArgs e)
         {
@@ -246,11 +226,8 @@ namespace Library_Management_System
             OpenChildForm(new Competitions());
         }
 
-        private void pictureBoxReports_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGBColors.color7);
-            OpenChildForm(new Report());
-        }
+     
+    
 
         private void iconButtonReport_Click(object sender, EventArgs e)
         {
@@ -264,5 +241,37 @@ namespace Library_Management_System
             las registraton = new las();
             registraton.Show();
         }
+
+        private void pictureBoxacc_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Account());
+        }
+
+        private void pictureBoxbook_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Book());
+
+        }
+
+        private void pictureBoxCheckout_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Checkout());
+        }
+
+        private void pictureBoxNews_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Registraton());
+        }
+
+        private void pictureBoxCompet_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Competitions());
+        }
+
+        private void pictureBoxReports_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Report());
+        }
+
     }
 }
