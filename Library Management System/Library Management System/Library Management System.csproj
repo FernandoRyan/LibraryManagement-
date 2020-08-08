@@ -144,6 +144,9 @@
     <EmbeddedResource Include="Book.resx">
       <DependentUpon>Book.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Checkout.resx">
+      <DependentUpon>Checkout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Competitions.resx">
       <DependentUpon>Competitions.cs</DependentUpon>
     </EmbeddedResource>
