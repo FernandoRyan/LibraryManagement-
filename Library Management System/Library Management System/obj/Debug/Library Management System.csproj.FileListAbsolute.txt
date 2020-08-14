@@ -95,3 +95,4 @@ C:\Users\Praneeth\Desktop\New folder\LibraryManagement-\Library Management Syste
 E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Checkout.resources
 E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Add_new_Book.resources
 E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Books.resources
+E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.SearchBook.resources

@@ -184,6 +184,9 @@
     <EmbeddedResource Include="Registraton.resx">
       <DependentUpon>Registraton.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SearchBook.resx">
+      <DependentUpon>SearchBook.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
