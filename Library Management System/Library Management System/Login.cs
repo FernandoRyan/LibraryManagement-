@@ -27,8 +27,8 @@ namespace Library_Management_System
         {
             try
             {
-                SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='E:\Library System\Register.mdf';Integrated Security=True;Connect Timeout=30");
-                SqlDataAdapter sda = new SqlDataAdapter("select count(*) from Admintb where username = '" + textBox1.Text + "' and password = '" + textBox2.Text + "'", conn);
+                SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Register.mdf;Integrated Security=True;Connect Timeout=30");
+                SqlDataAdapter sda = new SqlDataAdapter("select count(*) from LG where username = '" + textBox1.Text + "' and password = '" + textBox2.Text + "'", conn);
                 DataTable dt = new DataTable();
                 sda.Fill(dt);
                 if (dt.Rows[0][0].ToString() == "1")
@@ -80,5 +80,5 @@ namespace Library_Management_System
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
-    }
+	}
 }
