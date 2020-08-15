@@ -32,7 +32,7 @@ namespace Library_Management_System
         {
             try
             {
-                if (SID.Text == "" || Fnametxt.Text == "" || Lnametxt.Text == "" || emailtxt.Text == "" || contacttxt.Text == "" || pwtxt.Text == "")
+                if (SID.Text == "" || Fnametxt.Text == "" || Lnametxt.Text == "" || emailtxt.Text == "" || contacttxt.Text == "" )
                 {
                     MessageBox.Show("Please fill the all fields");
                 }
@@ -40,7 +40,7 @@ namespace Library_Management_System
                 {
                     SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='E:\Library System\Register.mdf';Integrated Security=True;Connect Timeout=30");
                     conn.Open();
-                    String insert = "insert into LG (ID,Fname,Lname,email,contact,password) values ('" + SID.Text + "','" + Fnametxt.Text + "','" + Lnametxt.Text + "','" + emailtxt.Text + "','" + contacttxt.Text + "','" + pwtxt.Text + "')";
+                    String insert = "insert into LG (ID,Fname,Lname,email,contact,password) values ('" + SID.Text + "','" + Fnametxt.Text + "','" + Lnametxt.Text + "','" + emailtxt.Text + "','" + contacttxt.Text + "')";
                     SqlCommand cmd = new SqlCommand(insert, conn);
                     cmd.ExecuteNonQuery();
                     this.Hide();

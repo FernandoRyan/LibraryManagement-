@@ -95,7 +95,6 @@ C:\Users\Praneeth\Desktop\New folder\LibraryManagement-\Library Management Syste
 E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Checkout.resources
 E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Account.resources
 E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.AddBooks.resources
-E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.UpdateBook.resources
 E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Search.resources
 E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library Management System.exe.licenses
 E:\Library System\LibraryManagement-\Library Management System\Library Management System\bin\Debug\Bunifu.Licensing.dll
@@ -158,3 +157,5 @@ E:\Library System\LibraryManagement-\Library Management System\Library Managemen
 E:\Library System\LibraryManagement-\Library Management System\Library Management System\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
 E:\Library System\LibraryManagement-\Library Management System\Library Management System\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
 E:\Library System\LibraryManagement-\Library Management System\Library Management System\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.UpdateBook.resources
+E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Delete.resources
