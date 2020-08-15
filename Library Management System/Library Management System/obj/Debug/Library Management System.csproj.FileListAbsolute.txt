@@ -96,3 +96,10 @@ E:\Library System\LibraryManagement-\Library Management System\Library Managemen
 E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Add_new_Book.resources
 E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Books.resources
 E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.SearchBook.resources
+C:\Users\Bahu\Desktop\C# Assignment(LibMS)\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Account.resources
+C:\Users\Bahu\Desktop\C# Assignment(LibMS)\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Book.resources
+C:\Users\Bahu\Desktop\C# Assignment(LibMS)\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Checkout.resources
+C:\Users\Bahu\Desktop\C# Assignment(LibMS)\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Competitions.resources
+C:\Users\Bahu\Desktop\C# Assignment(LibMS)\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Dashboard.resources
+C:\Users\Bahu\Desktop\C# Assignment(LibMS)\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Login.resources
+C:\Users\Bahu\Desktop\C# Assignment(LibMS)\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Registraton.resources
