@@ -198,6 +198,12 @@ namespace Library_Management_System
 
         }
 
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.Show();
+        }
     }
 }
         
