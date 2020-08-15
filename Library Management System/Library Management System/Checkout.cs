@@ -137,7 +137,7 @@ namespace Library_Management_System
                     if (days <= 14)
                     {
                         string message = "No fine for this book. Do you want to remove this lend?";
-                        string title = "Return worning";
+                        string title = "Return warning";
                         MessageBoxButtons buttons = MessageBoxButtons.YesNo;
                         DialogResult result = MessageBox.Show(message, title, buttons);
                         if (result == DialogResult.Yes)
