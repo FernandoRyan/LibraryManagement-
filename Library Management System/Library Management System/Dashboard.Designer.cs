@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.iconButton6 = new FontAwesome.Sharp.IconButton();
             this.btnCompetition = new FontAwesome.Sharp.IconButton();
             this.btnNews = new FontAwesome.Sharp.IconButton();
@@ -77,6 +78,7 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(55)))), ((int)(((byte)(140)))));
+            this.panelMenu.Controls.Add(this.iconButton1);
             this.panelMenu.Controls.Add(this.iconButton6);
             this.panelMenu.Controls.Add(this.btnCompetition);
             this.panelMenu.Controls.Add(this.btnNews);
@@ -88,8 +90,30 @@
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(200, 486);
+            this.panelMenu.Size = new System.Drawing.Size(200, 540);
             this.panelMenu.TabIndex = 1;
+            // 
+            // iconButton1
+            // 
+            this.iconButton1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButton1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.SignOutAlt;
+            this.iconButton1.IconColor = System.Drawing.Color.Gainsboro;
+            this.iconButton1.IconSize = 33;
+            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton1.Location = new System.Drawing.Point(0, 484);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.iconButton1.Rotation = 0D;
+            this.iconButton1.Size = new System.Drawing.Size(200, 60);
+            this.iconButton1.TabIndex = 10;
+            this.iconButton1.Text = "Log Out";
+            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton1.UseVisualStyleBackColor = true;
             // 
             // iconButton6
             // 
@@ -190,7 +214,7 @@
             this.btnBook.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBook.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.btnBook.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnBook.IconChar = FontAwesome.Sharp.IconChar.Registered;
+            this.btnBook.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
             this.btnBook.IconColor = System.Drawing.Color.Gainsboro;
             this.btnBook.IconSize = 33;
             this.btnBook.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -200,7 +224,7 @@
             this.btnBook.Rotation = 0D;
             this.btnBook.Size = new System.Drawing.Size(200, 60);
             this.btnBook.TabIndex = 5;
-            this.btnBook.Text = "Register";
+            this.btnBook.Text = "Add Student";
             this.btnBook.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnBook.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnBook.UseVisualStyleBackColor = true;
@@ -413,7 +437,7 @@
             this.Desktoppanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Desktoppanel.Location = new System.Drawing.Point(200, 32);
             this.Desktoppanel.Name = "Desktoppanel";
-            this.Desktoppanel.Size = new System.Drawing.Size(701, 454);
+            this.Desktoppanel.Size = new System.Drawing.Size(701, 508);
             this.Desktoppanel.TabIndex = 3;
             // 
             // iconButtonReport
@@ -428,7 +452,7 @@
             this.iconButtonReport.IconChar = FontAwesome.Sharp.IconChar.None;
             this.iconButtonReport.IconColor = System.Drawing.Color.Black;
             this.iconButtonReport.IconSize = 16;
-            this.iconButtonReport.Location = new System.Drawing.Point(548, 383);
+            this.iconButtonReport.Location = new System.Drawing.Point(548, 437);
             this.iconButtonReport.Name = "iconButtonReport";
             this.iconButtonReport.Rotation = 0D;
             this.iconButtonReport.Size = new System.Drawing.Size(115, 30);
@@ -449,7 +473,7 @@
             this.iconButtonCompet.IconChar = FontAwesome.Sharp.IconChar.None;
             this.iconButtonCompet.IconColor = System.Drawing.Color.Black;
             this.iconButtonCompet.IconSize = 16;
-            this.iconButtonCompet.Location = new System.Drawing.Point(285, 383);
+            this.iconButtonCompet.Location = new System.Drawing.Point(285, 437);
             this.iconButtonCompet.Name = "iconButtonCompet";
             this.iconButtonCompet.Rotation = 0D;
             this.iconButtonCompet.Size = new System.Drawing.Size(136, 30);
@@ -470,7 +494,7 @@
             this.iconButtonNews.IconChar = FontAwesome.Sharp.IconChar.None;
             this.iconButtonNews.IconColor = System.Drawing.Color.Black;
             this.iconButtonNews.IconSize = 16;
-            this.iconButtonNews.Location = new System.Drawing.Point(55, 383);
+            this.iconButtonNews.Location = new System.Drawing.Point(55, 437);
             this.iconButtonNews.Name = "iconButtonNews";
             this.iconButtonNews.Rotation = 0D;
             this.iconButtonNews.Size = new System.Drawing.Size(115, 30);
@@ -566,7 +590,7 @@
             this.pictureBoxReports.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBoxReports.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxReports.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxReports.Image")));
-            this.pictureBoxReports.Location = new System.Drawing.Point(548, 272);
+            this.pictureBoxReports.Location = new System.Drawing.Point(548, 326);
             this.pictureBoxReports.Name = "pictureBoxReports";
             this.pictureBoxReports.Size = new System.Drawing.Size(115, 89);
             this.pictureBoxReports.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -592,7 +616,7 @@
             this.pictureBoxNews.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBoxNews.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxNews.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxNews.Image")));
-            this.pictureBoxNews.Location = new System.Drawing.Point(55, 272);
+            this.pictureBoxNews.Location = new System.Drawing.Point(55, 326);
             this.pictureBoxNews.Name = "pictureBoxNews";
             this.pictureBoxNews.Size = new System.Drawing.Size(115, 89);
             this.pictureBoxNews.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -618,7 +642,7 @@
             this.pictureBoxCompet.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.pictureBoxCompet.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxCompet.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxCompet.Image")));
-            this.pictureBoxCompet.Location = new System.Drawing.Point(295, 272);
+            this.pictureBoxCompet.Location = new System.Drawing.Point(295, 326);
             this.pictureBoxCompet.Name = "pictureBoxCompet";
             this.pictureBoxCompet.Size = new System.Drawing.Size(115, 89);
             this.pictureBoxCompet.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -630,7 +654,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(901, 486);
+            this.ClientSize = new System.Drawing.Size(901, 540);
             this.Controls.Add(this.Desktoppanel);
             this.Controls.Add(this.panelTitlebar);
             this.Controls.Add(this.panelMenu);
@@ -689,5 +713,6 @@
         private FontAwesome.Sharp.IconButton iconButtoncheckout;
         private FontAwesome.Sharp.IconButton iconButtonReport;
         private System.Windows.Forms.Label label3;
+        private FontAwesome.Sharp.IconButton iconButton1;
     }
 }

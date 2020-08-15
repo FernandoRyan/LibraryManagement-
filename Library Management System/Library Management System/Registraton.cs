@@ -52,7 +52,7 @@ namespace Library_Management_System
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Something wrong in registration {ex}");
+                MessageBox.Show(ex.Message);
             }
 
 
