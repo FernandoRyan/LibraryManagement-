@@ -103,9 +103,7 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Events.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Events.cs" />
     <Compile Include="Events.Designer.cs">
       <DependentUpon>Events.cs</DependentUpon>
     </Compile>
@@ -121,9 +119,7 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="News.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="News.cs" />
     <Compile Include="News.Designer.cs">
       <DependentUpon>News.cs</DependentUpon>
     </Compile>
@@ -177,6 +173,9 @@
     </Compile>
     <EmbeddedResource Include="Registraton.resx">
       <DependentUpon>Registraton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SearchBook.resx">
       <DependentUpon>SearchBook.cs</DependentUpon>
