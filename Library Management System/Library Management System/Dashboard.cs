@@ -191,13 +191,11 @@ namespace Library_Management_System
 
         private void iconButtonAcc_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender, RGBColors.color2);
             OpenChildForm(new Account());
         }
 
         private void iconButtonBook_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender, RGBColors.color3);
             OpenChildForm(new Book());
         }
 
@@ -205,7 +203,7 @@ namespace Library_Management_System
 
         private void iconButtoncheckout_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender, RGBColors.color4);
+           
             OpenChildForm(new Checkout());
         }
 
@@ -214,7 +212,6 @@ namespace Library_Management_System
      
         private void iconButtonNews_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender, RGBColors.color6);
             OpenChildForm(new Registraton());
         }
 
@@ -222,7 +219,7 @@ namespace Library_Management_System
 
         private void iconButtonCompet_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender, RGBColors.color7);
+        
             OpenChildForm(new Competitions());
         }
 
@@ -231,7 +228,7 @@ namespace Library_Management_System
 
         private void iconButtonReport_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender, RGBColors.color5);
+         
             OpenChildForm(new Report());
         }
 

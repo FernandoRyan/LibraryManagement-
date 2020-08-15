@@ -40,6 +40,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.Home = new System.Windows.Forms.PictureBox();
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.btnReport = new FontAwesome.Sharp.IconButton();
             this.btnCompetition = new FontAwesome.Sharp.IconButton();
             this.btnCheckout = new FontAwesome.Sharp.IconButton();
@@ -197,6 +198,7 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(55)))), ((int)(((byte)(140)))));
+            this.panelMenu.Controls.Add(this.iconButton1);
             this.panelMenu.Controls.Add(this.btnReport);
             this.panelMenu.Controls.Add(this.btnCompetition);
             this.panelMenu.Controls.Add(this.btnCheckout);
@@ -208,8 +210,30 @@
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(200, 500);
+            this.panelMenu.Size = new System.Drawing.Size(200, 530);
             this.panelMenu.TabIndex = 0;
+            // 
+            // iconButton1
+            // 
+            this.iconButton1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.iconButton1.FlatAppearance.BorderSize = 0;
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
+            this.iconButton1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.SignOutAlt;
+            this.iconButton1.IconColor = System.Drawing.Color.Gainsboro;
+            this.iconButton1.IconSize = 33;
+            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton1.Location = new System.Drawing.Point(0, 484);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.iconButton1.Rotation = 0D;
+            this.iconButton1.Size = new System.Drawing.Size(200, 60);
+            this.iconButton1.TabIndex = 15;
+            this.iconButton1.Text = "Logout";
+            this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.iconButton1.UseVisualStyleBackColor = true;
             // 
             // btnReport
             // 
@@ -274,7 +298,7 @@
             this.btnCheckout.Rotation = 0D;
             this.btnCheckout.Size = new System.Drawing.Size(200, 60);
             this.btnCheckout.TabIndex = 12;
-            this.btnCheckout.Text = "Checkout";
+            this.btnCheckout.Text = "Issue Book";
             this.btnCheckout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCheckout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCheckout.UseVisualStyleBackColor = true;
@@ -310,7 +334,7 @@
             this.btnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegister.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
             this.btnRegister.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnRegister.IconChar = FontAwesome.Sharp.IconChar.Registered;
+            this.btnRegister.IconChar = FontAwesome.Sharp.IconChar.UserPlus;
             this.btnRegister.IconColor = System.Drawing.Color.Gainsboro;
             this.btnRegister.IconSize = 33;
             this.btnRegister.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -320,7 +344,7 @@
             this.btnRegister.Rotation = 0D;
             this.btnRegister.Size = new System.Drawing.Size(200, 60);
             this.btnRegister.TabIndex = 10;
-            this.btnRegister.Text = "Register";
+            this.btnRegister.Text = "Add Student";
             this.btnRegister.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRegister.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnRegister.UseVisualStyleBackColor = true;
@@ -343,7 +367,7 @@
             this.btnAccount.Rotation = 0D;
             this.btnAccount.Size = new System.Drawing.Size(200, 60);
             this.btnAccount.TabIndex = 4;
-            this.btnAccount.Text = "Account";
+            this.btnAccount.Text = "Student Details";
             this.btnAccount.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAccount.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAccount.UseVisualStyleBackColor = true;
@@ -382,11 +406,13 @@
             this.Desktoppanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Desktoppanel.Location = new System.Drawing.Point(200, 32);
             this.Desktoppanel.Name = "Desktoppanel";
-            this.Desktoppanel.Size = new System.Drawing.Size(694, 468);
+            this.Desktoppanel.Size = new System.Drawing.Size(694, 498);
             this.Desktoppanel.TabIndex = 4;
             // 
             // label4
             // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Uighur", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -399,6 +425,8 @@
             // 
             // label2
             // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Uighur", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -414,7 +442,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(38)))), ((int)(((byte)(68)))));
-            this.ClientSize = new System.Drawing.Size(894, 500);
+            this.ClientSize = new System.Drawing.Size(894, 530);
             this.Controls.Add(this.Desktoppanel);
             this.Controls.Add(this.panelTitlebar);
             this.Controls.Add(this.panelMenu);
@@ -456,6 +484,7 @@
         private System.Windows.Forms.Panel Desktoppanel;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
+        private FontAwesome.Sharp.IconButton iconButton1;
     }
 }
 
