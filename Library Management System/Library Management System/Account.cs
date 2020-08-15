@@ -40,5 +40,41 @@ namespace Library_Management_System
             da.Fill(dt);
             dataGridView1.DataSource = dt;
 		}
+
+
+		private void textBox1_Keyup(object sender, KeyEventArgs e)
+		{
+			try
+			{
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
+                conn.Open();
+
+
+                dataGridView1.Columns.Clear();
+                dataGridView1.Refresh();
+                SqlCommand cmd = conn.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "select * from LG where ID like('%"+ textBox1.Text +"%')";
+                cmd.ExecuteNonQuery();
+                DataTable dt = new DataTable();
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(dt);
+                dataGridView1.DataSource = dt;
+            }
+			catch(Exception ex)
+			{
+                MessageBox.Show(ex.Message.ToString());
+			}
+		}
+
+		private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+		{
+            int i;
+            i = Convert.ToInt32(dataGridView1.SelectedCells[0].Value.ToString());
+            MessageBox.Show(i.ToString());
+		}
 	}
 }
