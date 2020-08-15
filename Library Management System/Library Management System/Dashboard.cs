@@ -134,11 +134,7 @@ namespace Library_Management_System
             OpenChildForm(new Checkout());
         }
 
-        private void btnCompetition_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGBColors.color7);
-            OpenChildForm(new Competitions());
-        }
+      
 
         private void Home_Click(object sender, EventArgs e)
         {
@@ -217,11 +213,7 @@ namespace Library_Management_System
 
      
 
-        private void iconButtonCompet_Click(object sender, EventArgs e)
-        {
-        
-            OpenChildForm(new Competitions());
-        }
+      
 
      
     
@@ -260,10 +252,7 @@ namespace Library_Management_System
             OpenChildForm(new Registraton());
         }
 
-        private void pictureBoxCompet_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Competitions());
-        }
+      
 
         private void pictureBoxReports_Click(object sender, EventArgs e)
         {

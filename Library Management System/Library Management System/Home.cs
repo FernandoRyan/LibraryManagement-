@@ -135,11 +135,7 @@ namespace Library_Management_System
             OpenChildForm(new Checkout());
         }
 
-        private void btnCompetition_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGBColors.color6);
-            OpenChildForm(new Competitions());
-        }
+     
 
         private void btnReport_Click(object sender, EventArgs e)
         {
@@ -203,6 +199,7 @@ namespace Library_Management_System
             this.Hide();
             Login login = new Login();
             login.Show();
+            MessageBox.Show("You are now logged out");
         }
     }
 }

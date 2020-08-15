@@ -81,20 +81,25 @@ namespace Library_Management_System
 
             //Used to update the table 
             i = Convert.ToInt32(bunifuDataGridView1.SelectedCells[0].Value.ToString());
+          
             try
             {
+                if (BName.Text == "" || Aname.Text == "" || PubName.Text == "" || Qty.Text == "" || dateTimePicker1.Text == "" || BkPrice.Text == "")
+                {
+                    MessageBox.Show("Please fill the all fields");
+                }
+                else {
+                    conn.Open();
+                    SqlCommand cmd = conn.CreateCommand();
+                    cmd.CommandType = CommandType.Text;
+                    cmd.CommandText = "update Books set Name='" + BName.Text + "',Author='" + Aname.Text + "',Publisher='" + PubName.Text + "',Book_quantity='" + Qty.Text + "',Purchase_date='" + dateTimePicker1.Text + "',Purchase_Price='" + BkPrice.Text + "' where id='" + i + "' ";
+                    cmd.ExecuteNonQuery();
+                    DataTable dt = new DataTable();
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    dipBook();
+                    MessageBox.Show("Book Details sucesfully Updated!!");
 
-                conn.Open();
-                SqlCommand cmd = conn.CreateCommand();
-                cmd.CommandType = CommandType.Text;
-                cmd.CommandText = "update Books set Name='" + BName.Text + "',Author='" + Aname.Text + "',Publisher='" + PubName.Text + "',Book_quantity='" + Qty.Text + "',Purchase_date='" + dateTimePicker1.Text + "',Purchase_Price='" + BkPrice.Text + "' where id='" + i + "' ";
-                cmd.ExecuteNonQuery();
-                DataTable dt = new DataTable();
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
-                dipBook();
-                MessageBox.Show("Book Details sucesfully Updated!!");
-
-
+                }
 
             }
             catch (Exception ex)

@@ -42,7 +42,6 @@
             this.panelMenu = new System.Windows.Forms.Panel();
             this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.btnReport = new FontAwesome.Sharp.IconButton();
-            this.btnCompetition = new FontAwesome.Sharp.IconButton();
             this.btn = new FontAwesome.Sharp.IconButton();
             this.btnBook = new FontAwesome.Sharp.IconButton();
             this.btnRegister = new FontAwesome.Sharp.IconButton();
@@ -200,7 +199,6 @@
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(55)))), ((int)(((byte)(140)))));
             this.panelMenu.Controls.Add(this.iconButton1);
             this.panelMenu.Controls.Add(this.btnReport);
-            this.panelMenu.Controls.Add(this.btnCompetition);
             this.panelMenu.Controls.Add(this.btn);
             this.panelMenu.Controls.Add(this.btnBook);
             this.panelMenu.Controls.Add(this.btnRegister);
@@ -224,7 +222,7 @@
             this.iconButton1.IconColor = System.Drawing.Color.Gainsboro;
             this.iconButton1.IconSize = 33;
             this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.Location = new System.Drawing.Point(0, 484);
+            this.iconButton1.Location = new System.Drawing.Point(0, 424);
             this.iconButton1.Name = "iconButton1";
             this.iconButton1.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.iconButton1.Rotation = 0D;
@@ -247,7 +245,7 @@
             this.btnReport.IconColor = System.Drawing.Color.Gainsboro;
             this.btnReport.IconSize = 33;
             this.btnReport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReport.Location = new System.Drawing.Point(0, 424);
+            this.btnReport.Location = new System.Drawing.Point(0, 364);
             this.btnReport.Name = "btnReport";
             this.btnReport.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btnReport.Rotation = 0D;
@@ -258,29 +256,6 @@
             this.btnReport.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnReport.UseVisualStyleBackColor = true;
             this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
-            // 
-            // btnCompetition
-            // 
-            this.btnCompetition.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnCompetition.FlatAppearance.BorderSize = 0;
-            this.btnCompetition.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCompetition.Flip = FontAwesome.Sharp.FlipOrientation.Normal;
-            this.btnCompetition.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnCompetition.IconChar = FontAwesome.Sharp.IconChar.Trophy;
-            this.btnCompetition.IconColor = System.Drawing.Color.Gainsboro;
-            this.btnCompetition.IconSize = 33;
-            this.btnCompetition.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCompetition.Location = new System.Drawing.Point(0, 364);
-            this.btnCompetition.Name = "btnCompetition";
-            this.btnCompetition.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.btnCompetition.Rotation = 0D;
-            this.btnCompetition.Size = new System.Drawing.Size(200, 60);
-            this.btnCompetition.TabIndex = 13;
-            this.btnCompetition.Text = "Competition";
-            this.btnCompetition.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCompetition.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnCompetition.UseVisualStyleBackColor = true;
-            this.btnCompetition.Click += new System.EventHandler(this.btnCompetition_Click);
             // 
             // btn
             // 
@@ -478,7 +453,6 @@
         private FontAwesome.Sharp.IconButton btnAccount;
         private FontAwesome.Sharp.IconButton btnHome;
         private FontAwesome.Sharp.IconButton btnReport;
-        private FontAwesome.Sharp.IconButton btnCompetition;
         private FontAwesome.Sharp.IconButton btn;
         private FontAwesome.Sharp.IconButton btnBook;
         private FontAwesome.Sharp.IconButton btnRegister;

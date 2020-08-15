@@ -159,7 +159,7 @@
             this.btnCompetition.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnCompetition.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCompetition.UseVisualStyleBackColor = true;
-            this.btnCompetition.Click += new System.EventHandler(this.btnCompetition_Click);
+           
             // 
             // btnNews
             // 
@@ -480,7 +480,7 @@
             this.iconButtonCompet.TabIndex = 15;
             this.iconButtonCompet.Text = "Competitions....";
             this.iconButtonCompet.UseVisualStyleBackColor = false;
-            this.iconButtonCompet.Click += new System.EventHandler(this.iconButtonCompet_Click);
+
             // 
             // iconButtonNews
             // 
@@ -648,7 +648,7 @@
             this.pictureBoxCompet.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxCompet.TabIndex = 1;
             this.pictureBoxCompet.TabStop = false;
-            this.pictureBoxCompet.Click += new System.EventHandler(this.pictureBoxCompet_Click);
+            
             // 
             // Dashboard
             // 
