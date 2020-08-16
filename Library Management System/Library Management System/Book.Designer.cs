@@ -38,6 +38,9 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.button1);
@@ -66,6 +69,7 @@
             this.button3.TabIndex = 31;
             this.button3.Text = "Add Book";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button1
             // 
@@ -81,8 +85,9 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(286, 33);
             this.button1.TabIndex = 30;
-            this.button1.Text = "Update | Edit";
+            this.button1.Text = "Update|Delete";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -100,6 +105,7 @@
             this.button2.TabIndex = 29;
             this.button2.Text = "Search Books";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Book
             // 

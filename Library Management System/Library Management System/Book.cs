@@ -19,9 +19,22 @@ namespace Library_Management_System
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
-           Add_new_Book Book = new Add_new_Book();
-            Book.Show();
+            AddBooks book = new AddBooks();
+            book.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            UpdateBook  book = new UpdateBook();
+            book.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {  
+           Search book = new Search();
+           book.Show();
+        }
+
+      
     }
 }

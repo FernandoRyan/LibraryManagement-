@@ -101,6 +101,7 @@ namespace Library_Management_System
             childForm.Show();
             lblTitlechildform.Text = childForm.Text;
         }
+
         private void btnHome_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -134,11 +135,7 @@ namespace Library_Management_System
             OpenChildForm(new Checkout());
         }
 
-        private void btnCompetition_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender, RGBColors.color6);
-            OpenChildForm(new Competitions());
-        }
+     
 
         private void btnReport_Click(object sender, EventArgs e)
         {
@@ -197,6 +194,13 @@ namespace Library_Management_System
 
         }
 
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.Show();
+            MessageBox.Show("You are now logged out");
+        }
     }
 }
         
