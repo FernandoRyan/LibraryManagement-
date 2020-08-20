@@ -135,15 +135,11 @@ namespace Library_Management_System
             OpenChildForm(new Checkout());
         }
 
-     
-
-        private void btnReport_Click(object sender, EventArgs e)
+        private void iconButton1_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color7);
             OpenChildForm(new Report());
         }
-
-
         private void Home_Click(object sender, EventArgs e)
         {
             if (currentChildForm != null)
@@ -194,7 +190,9 @@ namespace Library_Management_System
 
         }
 
-        private void iconButton1_Click(object sender, EventArgs e)
+      
+
+        private void iconButton2_Click(object sender, EventArgs e)
         {
             this.Hide();
             Login login = new Login();

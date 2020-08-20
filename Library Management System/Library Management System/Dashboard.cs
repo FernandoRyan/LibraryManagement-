@@ -259,5 +259,12 @@ namespace Library_Management_System
             OpenChildForm(new Report());
         }
 
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.Show();
+            MessageBox.Show("You are now logged out");
+        }
     }
 }

@@ -109,6 +109,7 @@
             this.iconButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton1.UseVisualStyleBackColor = true;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // iconButton6
             // 
@@ -219,7 +220,7 @@
             this.btnAccount.Rotation = 0D;
             this.btnAccount.Size = new System.Drawing.Size(200, 60);
             this.btnAccount.TabIndex = 4;
-            this.btnAccount.Text = "Account";
+            this.btnAccount.Text = "Student Details";
             this.btnAccount.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAccount.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnAccount.UseVisualStyleBackColor = true;
