@@ -158,3 +158,11 @@ E:\Library System\LibraryManagement-\Library Management System\Library Managemen
 E:\Library System\LibraryManagement-\Library Management System\Library Management System\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
 E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.UpdateBook.resources
 E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Delete.resources
+C:\Users\nethma\Desktop\C# project\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Account.resources
+C:\Users\nethma\Desktop\C# project\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.AddBooks.resources
+C:\Users\nethma\Desktop\C# project\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Checkout.resources
+C:\Users\nethma\Desktop\C# project\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Delete.resources
+C:\Users\nethma\Desktop\C# project\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Report.resources
+C:\Users\nethma\Desktop\C# project\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.UpdateBook.resources
+C:\Users\nethma\Desktop\C# project\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Search.resources
+C:\Users\nethma\Desktop\C# project\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library Management System.exe.licenses
