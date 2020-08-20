@@ -166,3 +166,5 @@ C:\Users\nethma\Desktop\C# project\LibraryManagement-\Library Management System\
 C:\Users\nethma\Desktop\C# project\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.UpdateBook.resources
 C:\Users\nethma\Desktop\C# project\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Search.resources
 C:\Users\nethma\Desktop\C# project\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library Management System.exe.licenses
+E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.Report.resources
+E:\Library System\LibraryManagement-\Library Management System\Library Management System\obj\Debug\Library_Management_System.SReport.resources

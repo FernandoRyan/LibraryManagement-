@@ -11,10 +11,10 @@ using System.Data.SqlClient;
 
 namespace Library_Management_System
 {
-    public partial class Report : Form
+    public partial class SReport : Form
     {
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\nethma\Downloads\Register.mdf;Integrated Security=True;Connect Timeout=30");
-        public Report()
+        public SReport()
         {
             InitializeComponent();
         }
@@ -31,7 +31,7 @@ namespace Library_Management_System
             da.Fill(ds.DataTable1);
             CrystalReport1 myreport = new CrystalReport1();
             myreport.SetDataSource(ds);
-            CrystalReportViewer1.ReportSource = myreport;
+            crystalReportViewer2.ReportSource = myreport;
         }
         private void Report(object sender, EventArgs e)
         {

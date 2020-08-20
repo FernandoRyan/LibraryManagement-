@@ -125,7 +125,7 @@ namespace Library_Management_System
         private void iconButton6_Click(object sender, EventArgs e)
         {
             ActivateButton(sender, RGBColors.color5);
-            OpenChildForm(new Report());
+            OpenChildForm(new SReport());
         }
 
         private void btnNews_Click(object sender, EventArgs e)
@@ -221,7 +221,7 @@ namespace Library_Management_System
         private void iconButtonReport_Click(object sender, EventArgs e)
         {
          
-            OpenChildForm(new Report());
+            OpenChildForm(new SReport());
         }
 
         private void iconCurrentChildForm_Click(object sender, EventArgs e)
@@ -256,7 +256,7 @@ namespace Library_Management_System
 
         private void pictureBoxReports_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Report());
+            OpenChildForm(new SReport());
         }
 
         private void iconButton1_Click(object sender, EventArgs e)
