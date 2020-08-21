@@ -38,8 +38,7 @@ namespace Library_Management_System
                 }
                 else
                 {
-                    SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='E:\Library System\Register.mdf';Integrated Security=True;Connect Timeout=30");
-                    conn.Open();
+                    SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Register.mdf;Integrated Security=True;Connect Timeout=30"); conn.Open();
                     String insert = "insert into LG (ID,Fname,Lname,email,contact,password) values ('" + SID.Text + "','" + Fnametxt.Text + "','" + Lnametxt.Text + "','" + emailtxt.Text + "','" + contacttxt.Text + "')";
                     SqlCommand cmd = new SqlCommand(insert, conn);
                     cmd.ExecuteNonQuery();

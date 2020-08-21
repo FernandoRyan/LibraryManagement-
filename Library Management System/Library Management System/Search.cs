@@ -14,7 +14,7 @@ namespace Library_Management_System
     {
 
         // Setting connection 
-        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='E:\Library System\Register.mdf';Integrated Security=True;Connect Timeout=30");
+        SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Register.mdf;Integrated Security=True;Connect Timeout=30");
         public Search()
         {
             InitializeComponent();
