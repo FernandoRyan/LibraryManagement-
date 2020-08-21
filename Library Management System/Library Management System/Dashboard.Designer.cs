@@ -132,7 +132,7 @@
             this.iconButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.iconButton6.UseVisualStyleBackColor = true;
-            this.iconButton6.Click += new System.EventHandler(this.iconButton6_Click);
+            
             // 
             // btnNews
             // 
@@ -430,7 +430,7 @@
             this.iconButtonReport.TabIndex = 16;
             this.iconButtonReport.Text = "Reports....";
             this.iconButtonReport.UseVisualStyleBackColor = false;
-            this.iconButtonReport.Click += new System.EventHandler(this.iconButtonReport_Click);
+            
             // 
             // iconButtonNews
             // 
@@ -546,7 +546,7 @@
             this.pictureBoxReports.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxReports.TabIndex = 7;
             this.pictureBoxReports.TabStop = false;
-            this.pictureBoxReports.Click += new System.EventHandler(this.pictureBoxReports_Click);
+            
             // 
             // pictureBoxCheckout
             // 

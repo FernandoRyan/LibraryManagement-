@@ -24,11 +24,10 @@ namespace Library_Management_System
         {
             try
             {
-              
-                
-                    SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='E:\Library System\Register.mdf';Integrated Security=True;Connect Timeout=30");
 
-                    conn.Open();
+
+                SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Register.mdf;Integrated Security=True;Connect Timeout=30");
+                conn.Open();
 
                     SqlCommand cmd = conn.CreateCommand();
                     cmd.CommandType = CommandType.Text;

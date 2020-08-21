@@ -13,7 +13,10 @@ namespace Library_Management_System
 {
     public partial class UpdateBook : Form
     {
-        System.Data.SqlClient.SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='E:\Library System\Register.mdf';Integrated Security=True;Connect Timeout=30");
+        System.Data.SqlClient.SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Register.mdf;Integrated Security=True;Connect Timeout=30");
+
+        
+
 
         public UpdateBook()
         {
