@@ -21,8 +21,7 @@ namespace Library_Management_System
         public void InsertLend()
         {
             String date = txtMM.Text + "/" + txtdd.Text + "/" + txtyyyy.Text;
-            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Praneeth\Desktop\New folder\Register.mdf;Integrated Security=True;Connect Timeout=30");
-            String insert = "insert into Lend (StudentID,Email,Contact,BookID,LendDate) values ('" + txtSid.Text + "','" + txtEmail.Text + "','" + txtContact.Text + "','" + txtBookId.Text + "','" + date + "')";
+            SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\Register.mdf;Integrated Security=True;Connect Timeout=30"); String insert = "insert into Lend (StudentID,Email,Contact,BookID,LendDate) values ('" + txtSid.Text + "','" + txtEmail.Text + "','" + txtContact.Text + "','" + txtBookId.Text + "','" + date + "')";
             try
             {
                 conn.Open();

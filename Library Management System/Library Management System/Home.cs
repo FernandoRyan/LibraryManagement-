@@ -137,8 +137,7 @@ namespace Library_Management_System
 
         private void iconButton1_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender, RGBColors.color7);
-            OpenChildForm(new Report());
+          
         }
         private void Home_Click(object sender, EventArgs e)
         {
